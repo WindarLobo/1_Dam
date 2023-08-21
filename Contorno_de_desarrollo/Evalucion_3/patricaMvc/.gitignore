@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/out/
+/workspace.xml
+.idea
+out
+controller.iml
+*.iml
+.idea/practicaMvc.iml
+practicaMvc.iml
+

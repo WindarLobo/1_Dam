@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"CalculoDelDni","l":"CalculoDelDni()","url":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"CalculoDelDni","l":"procedimiento()"}]
