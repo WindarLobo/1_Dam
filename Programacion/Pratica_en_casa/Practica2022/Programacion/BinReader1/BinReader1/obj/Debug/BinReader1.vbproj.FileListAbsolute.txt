@@ -1,0 +1,19 @@
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\bin\Debug\BinReader1.exe
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\bin\Debug\BinReader1.pdb
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\bin\Debug\BinReader1.xml
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\BinReader1.Form1.resources
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\BinReader1.Resources.resources
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\BinReader1.vbproj.GenerateResource.Cache
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\BinReader1.exe
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\BinReader1.xml
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinReader1\BinReader1\obj\Debug\BinReader1.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\programacion\BinReader1\BinReader1\obj\Debug\BinReader1.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\programacion\BinReader1\BinReader1\obj\Debug\BinReader1.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\programacion\BinReader1\BinReader1\obj\Debug\BinReader1.pdb
+G:\BinReader1\BinReader1\obj\Debug\BinReader1.exe
+G:\BinReader1\BinReader1\obj\Debug\BinReader1.xml
+G:\BinReader1\BinReader1\obj\Debug\BinReader1.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BinReader1\BinReader1\obj\Debug\BinReader1.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BinReader1\BinReader1\obj\Debug\BinReader1.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BinReader1\BinReader1\obj\Debug\BinReader1.pdb

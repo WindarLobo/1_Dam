@@ -1,0 +1,78 @@
+# Cubre los IDE de JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm y Rider
+# Referencia: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Cosas específicas del usuario
+.idea / ** / espacio de trabajo.xml
+.idea / ** / tareas.xml
+.idea / ** / uso.estadísticas.xml
+.idea / ** / diccionarios
+.idea / ** / estantería
+
+# Específico del usuario de AWS
+.idea / ** / aws.xml
+
+# archivos generados
+.idea / ** / contentModel.xml
+
+# Archivos confidenciales o de alta rotación
+.idea / ** / fuentes de datos /
+.idea / ** / fuentes de datos.ids
+.idea / ** / fuentes de datos.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dinámico.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+#Gradle _
+.idea / ** / gradle.xml
+.idea / ** / bibliotecas
+
+# Gradle y Maven con importación automática
+# Al usar Gradle o Maven con importación automática, debe excluir los archivos del módulo,
+# ya que se volverán a crear y pueden causar abandono. Descomente si usa
+# importación automática.
+# .idea/artefactos
+# .idea/compilador.xml
+# .idea/jarRepositories.xml
+# .idea/modulos.xml
+# .idea/*.iml
+# .idea/módulos
+# *.iml
+# *.ipr
+
+# CHacer
+cmake-build- * /
+
+# Complemento Mongo Explorer
+.idea / ** / mongoSettings.xml
+
+# Formato de proyecto basado en archivos
+* .iws
+
+#IntelliJ _
+fuera /
+
+# Complemento mpeltonen/sbt-idea
+.idea_modules /
+
+# Complemento JIRA
+atlassian-ide-plugin.xml
+
+# Complemento de Clojure cursiva
+.idea / replstate.xml
+
+# Complemento SonarLint
+.idea / sonarlint /
+
+# Complemento Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.propiedades
+crashlytics-build.propiedades
+tela.propiedades
+
+# Cliente de reposo basado en editor
+.idea / httpSolicitudes
+
+# Android studio 3.1+ archivo de caché serializado
+.idea / cachés / build_file_checksums.ser
+

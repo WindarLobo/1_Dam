@@ -1,0 +1,36 @@
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+Z:\Programacion\BOLETIN 5\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\BOLETIN 5 Adrian Estevez Gayoso\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache

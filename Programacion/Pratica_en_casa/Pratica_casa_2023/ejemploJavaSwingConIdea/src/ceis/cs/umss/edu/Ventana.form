@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ceis.cs.umss.edu.Ventana">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="60" width="379" height="360"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <background color="-4998344"/>
+      <enabled value="true"/>
+      <focusCycleRoot value="true"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2b820" class="javax.swing.JLabel" binding="usuarioLabel">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="false"/>
+          <foreground color="-16777216"/>
+          <inheritsPopupMenu value="false"/>
+          <maximumSize width="50" height="16"/>
+          <opaque value="false"/>
+          <preferredSize width="50" height="30"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Usuario"/>
+          <verticalTextPosition value="1"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="719" class="javax.swing.JTextField" binding="TextoUsuario">
+        <constraints/>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1"/>
+          <caretColor color="-16777216"/>
+          <columns value="30"/>
+          <disabledTextColor color="-8947849"/>
+          <doubleBuffered value="true"/>
+          <dragEnabled value="true"/>
+          <selectionEnd value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="36026" class="javax.swing.JLabel" binding="textPassword">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+          <opaque value="false"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="ed30f" class="javax.swing.JPasswordField" binding="passwordField1">
+        <constraints/>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1"/>
+          <columns value="37"/>
+          <doubleBuffered value="true"/>
+          <dragEnabled value="true"/>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="15" left="5" bottom="2" right="5"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <selectionColor color="-16777216"/>
+          <selectionEnd value="0"/>
+          <text value=""/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+        <clientProperties>
+          <JPasswordField.cutCopyAllowed class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="a447a" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Ingresar"/>
+        </properties>
+      </component>
+      <component id="d57a7" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.5"/>
+          <autoscrolls value="false"/>
+          <horizontalAlignment value="0"/>
+          <text value="Salir"/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+    </children>
+  </grid>
+</form>

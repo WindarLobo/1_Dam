@@ -1,0 +1,20 @@
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\bin\Debug\ArchAleat.exe
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\bin\Debug\ArchAleat.pdb
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\bin\Debug\ArchAleat.xml
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat2.vbproj.GenerateResource.Cache
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat.exe
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat.xml
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\bin\Debug\ArchAleat.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\bin\Debug\ArchAleat.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\bin\Debug\ArchAleat.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\ArchAleat2\ArchAleat2\obj\Debug\ArchAleat2.vbproj.GenerateResource.Cache

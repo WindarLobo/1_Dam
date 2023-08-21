@@ -1,0 +1,4 @@
+aa,5,25,carregar del arriba,65.5
+bb,6,30,carregar del arriba,75.5
+cc,7,15,carregar del arriba,95.5
+ee,8,17,carregar del arriba,85.5

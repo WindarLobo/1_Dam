@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="boletin12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/boletin12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

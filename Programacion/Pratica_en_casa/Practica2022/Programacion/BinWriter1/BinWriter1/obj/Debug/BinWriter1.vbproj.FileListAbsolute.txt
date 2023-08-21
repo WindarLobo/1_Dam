@@ -1,0 +1,13 @@
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\bin\Debug\BinWriter1.exe
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\bin\Debug\BinWriter1.pdb
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\bin\Debug\BinWriter1.xml
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\BinWriter1.Form1.resources
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\BinWriter1.Resources.resources
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\BinWriter1.vbproj.GenerateResource.Cache
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\BinWriter1.exe
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\BinWriter1.xml
+C:\Users\LuisM\Montecastelo\Visual Basic\Ejercicios y Prácticas\BinWriter1\BinWriter1\obj\Debug\BinWriter1.pdb
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\programacion\BinWriter1\BinWriter1\obj\Debug\BinWriter1.exe
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\programacion\BinWriter1\BinWriter1\obj\Debug\BinWriter1.xml
+C:\Users\usuario\Desktop\1º de INFORMATICA\Programacion\programacion\BinWriter1\BinWriter1\obj\Debug\BinWriter1.pdb

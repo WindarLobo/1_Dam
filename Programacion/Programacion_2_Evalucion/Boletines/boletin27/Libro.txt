@@ -1,0 +1,2 @@
+Titulo :planeta, Autor : luis, Precio : 5.0€, Unidades : 10
+ 

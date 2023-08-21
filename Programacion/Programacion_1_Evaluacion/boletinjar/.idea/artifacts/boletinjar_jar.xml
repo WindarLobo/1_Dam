@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="boletinjar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/boletinjar_jar</output-path>
+    <root id="archive" name="boletinjar.jar">
+      <element id="module-output" name="boletinjar" />
+    </root>
+  </artifact>
+</component>

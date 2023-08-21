@@ -1,0 +1,37 @@
+  Dim mat(4) As Integer
+    Public p As Integer = -1
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        mat(0) = 1
+        mat(1) = 2
+        mat(2) = 3
+        mat(3) = 4
+        mat(4) = 5
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        If p <= -1 Then
+            Button1.Enabled = False
+        ElseIf p >= 0 Then
+            p = p - 1
+            If p > -1 Then
+                TextBox1.Text = mat(p)
+                Button2.Enabled = True
+                If p = 0 Then
+                    Button1.Enabled = False
+                End If
+            End If
+        End If
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        If p < mat.Length - 1 Then
+            p = p + 1
+            TextBox1.Text = mat(p)
+            If p > 0 Then
+                Button1.Enabled = True
+            End If
+        Else
+            Button2.Enabled = False
+            Button1.Enabled = True
+        End If
+    End Sub

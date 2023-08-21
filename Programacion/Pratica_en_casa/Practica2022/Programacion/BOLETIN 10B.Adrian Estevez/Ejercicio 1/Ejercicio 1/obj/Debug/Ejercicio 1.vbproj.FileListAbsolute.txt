@@ -1,0 +1,119 @@
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+C:\Documents and Settings\adrian.estevez\Mis documentos\Visual Studio 2008\Projects\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+E:\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\BOLETIN 10\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Documents and Settings\adrian.estevez\Escritorio\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+E:\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Users\usuario\Desktop\BOLETIN 10.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Users\usuario\Desktop\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+G:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+C:\Documents and Settings\alumno\Escritorio\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\ResolveAssemblyReference.cache
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form1.resources
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form2.resources
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Form3.resources
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+K:\BOLETIN 10B.Adrian Estevez\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.vbproj.GenerateResource.Cache
