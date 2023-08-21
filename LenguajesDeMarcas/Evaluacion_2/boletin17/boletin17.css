@@ -1,0 +1,76 @@
+h1 {
+	font-variant: small-caps;
+	border: 10px solid black;
+	width: 50%;
+}
+h2 {
+	font-weight: normal;
+	border-left: 15px double red;
+
+}
+h3 {
+	width: 50%;
+	font-weight: normal;
+	border-left: 20px dotted  #bc3394 ;
+	border-top: 2px dotted   #25efeb ;
+	border-right: 8px dotted  #bc3394;
+	border-bottom: 10px dotted  #25efeb ;
+	}
+h4 {
+	text-align: justify-all;
+	width: 50%;
+	font-weight: normal;
+	border-top: 15px double   #94f51f ;
+	border-bottom: 15px double   #022ffa;
+}
+h5 {
+	width: 50%;
+	font-weight: normal;
+	border-left: 20px solid ;
+	border-top: 15px dashed red ;
+	border-right: 15px solid; black;
+	border-bottom: 10px dotted ;
+}
+h6 {
+	width: 50%;
+	font-weight: normal;
+	border-left: 10px dotted red ;
+	border-top: 15px dotted black ;
+	border-right: 15px solid black;
+	border-bottom: 10px dashed ;
+
+}
+p.uno {
+	width: 50%;
+	font-weight: normal;
+	border-left: 10px solid  #29e829  ;
+	border-top: 8px dashed #022ffa;
+	border-right: 10px dashed #29e829;
+	border-bottom: 20px dashed #022ffa;
+
+}
+
+p.dos {
+	width: 50%;
+	font-weight: normal;
+	border-left: 10px double   #f3eb0c ;
+	border-top: 30px double   #f3eb0c;
+	border-right: 10px double   #f3eb0c;
+	border-bottom: 30px double   #f3eb0c;
+}
+p.tres {
+	width: 50%;
+	font-weight: normal;
+	border-top: 18px solid  #51ef25 ;
+	border-bottom:18px solid #022ffa;
+}
+
+p.cuatro {
+	width: 50%;
+	font-weight: normal;
+	border-left: 30px solid ;
+	border-top: 30px dashed red ;
+	border-right: 30px solid; black;
+	border-bottom: 30px dotted ;
+
+}

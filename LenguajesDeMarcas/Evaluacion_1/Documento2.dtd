@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  libros [
+<!ELEMENT libros (autor)>
+<!ELEMENT autor ANY>
+<!ELEMENT nombre (#PCDATA)>
+]>
+
+<libros>
+<autor>
+el nombre es :
+<nombre>pepe</nombre>
+</autor>
+</libros>

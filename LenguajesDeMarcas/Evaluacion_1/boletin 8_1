@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cli:cliente [
+<!ELEMENT cli:cliente (cli:numero_ID,cli:nombre,cli:telefono,ped:pedido)>
+<!ELEMENT cli:numero_ID  (#PCDATA)>
+<!ELEMENT cli:nombre (#PCDATA)>
+<!ELEMENT cli:telefono (#PCDATA)>
+<!ELEMENT ped:pedido (ped:numero_ID,ped:articulo,ped:precio)>
+<!ELEMENT ped:numero_ID  (#PCDATA)>
+<!ELEMENT ped:articulo (#PCDATA)>
+<!ELEMENT ped:precio (#PCDATA)>
+<!ATTLIST cli:cliente  xmlns:cli CDATA #REQUIRED>
+<!ATTLIST   cli:cliente xmlns:ped CDATA #FIXED "http://pedido">
+<!ENTITY e "€">
+]>
+<cli:cliente xmlns:cli="http://cliente" xmlns:ped="http://pedido">
+    <cli:numero_ID>1232654</cli:numero_ID>
+    <cli:nombre>Jorge Ruiz</cli:nombre>
+    <cli:telefono>99999999</cli:telefono>
+    <ped:pedido>
+      <ped:numero_ID>6523213</ped:numero_ID>
+      <ped:articulo>Caja de herramientas</ped:articulo>
+      <ped:precio>187,90&e;</ped:precio>
+    </ped:pedido>
+</cli:cliente>

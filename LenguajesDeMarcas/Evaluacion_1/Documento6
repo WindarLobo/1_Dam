@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clients [
+<!ELEMENT clients (person+)>
+ <!ELEMENT person (name,cod?,visa)>
+<!ELEMENT name  (#PCDATA)>
+<!ELEMENT cod  EMPTY>
+<!ELEMENT visa  (#PCDATA)>
+]>
+<clients>
+<person>
+<name> Pedro </name>
+<cod/>
+<visa> 262323 </visa>
+</person>
+<person>
+<name> Homer </name>
+<visa> 24523 </visa>
+</person>
+<person>
+<name> Terrance </name>
+<cod/>
+<visa> 24354 </visa>
+</person>
+</clients> 

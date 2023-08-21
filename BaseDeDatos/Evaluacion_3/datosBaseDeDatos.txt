@@ -1,0 +1,728 @@
+    1  pwd
+    2  cd escritorio
+    3  cd Escritorio/
+    4  pwd
+    5  cd compartida
+    6  gedit /etc/fstab
+    7  cd /media
+    8  ls
+    9  cd /media
+   10  ls
+   11  adduser alumno vboxsf
+   12  sudo adduser alumno vboxsf
+   13  gedit /etc/fstab
+   14  nano /etc/fstab
+   15  su ricardo
+   16  su oracle
+   17  gedit /etc/fstab
+   18  sudo -s 
+   19  su - alumno
+   20  sudo -s
+   21  exit
+   22  pwd
+   23  sudo -s
+   24  pwd
+   25  cd Escritorio/
+   26  ls
+   27  whoami
+   28  pwd
+   29  sudo usemod aG vboxsf $(whoami)
+   30  sudo usermod aG vboxsf $(whoami)
+   31  sudo usermod -aG vboxsf $(whoami)
+   32  sudo usermod -aG vboxsf $oracle
+   33  sudo usermod -aG vboxsf oracle
+   34  exit
+   35  sudo  -s
+   36  sudo -s
+   37  su -
+   38  sudo -s
+   39  gedit 7etc/fstab
+   40  gedit /etc/fstab
+   41  sudo -s
+   42  sudo apt install postgresql postgresql-contrib
+   43  apt-get update
+   44  sudo -s
+   45  sudo -i -u postgres
+   46  apt install mongodb
+   47  sudo apt install mongodb
+   48  mongod
+   49  mongo
+   50  mongodb
+   51  mongod
+   52  mongo
+   53  mongod
+   54  mongo
+   55  mongod
+   56  mongo
+   57  apt-cache search netbeans
+   58  sudo apt install netbeans
+   59  lsb_release -a 
+   60  java version
+   61  java -version
+   62  apt install default-jdk
+   63  sudo apt install default-jdk
+   64  sudo apt uninstall netbeans
+   65  sudo  remove netbeans
+   66  java -version
+   67  sudo snap install netbeans --classic
+   68  apt-cache search yed
+   69  sudo -s
+   70  sudo -i -u postgres
+   71  postgres -V
+   72  postgres -version
+   73  postgres --version
+   74  sudo -s
+   75  sudo -i -u oracle
+   76  psql -d postgres
+   77  psql
+   78  psql -d postgres
+   79  echo `pg_config --sysconfdir`/pg_service.conf
+   80  gedit /etc/postgresql-common/pg_service.conf
+   81  echo `pg_config --sysconfdir`/pg_service.conf
+   82  gedit /etc/postgresql-common/pg_service.conf
+   83  psql -d postgres
+   84  exit
+   85  sudo -u postgres psql
+   86  sudo -i -u postgres
+   87  psql -d postgres -U oracle
+   88  postgres --version
+   89  sudo -i -u postgres
+   90  sudo -s
+   91  sudo -i -u postgres
+   92  psql
+   93  sudo psql  -i -u postgres
+   94  sudo psql  -u postgres
+   95  sudo psql -u oracle
+   96  sudo -i -u postgres
+   97  sudo -i -u oracle
+   98  exit
+   99  sudo psql -u oracle
+  100  psql -U postgres postgres
+  101  psql -U oracle postgres
+  102  exit
+  103  sudo -i -u postgres
+  104  psql
+  105  su - postres
+  106  su - postgres
+  107  sudo -s
+  108  su - postgres
+  109  sudo -s
+  110  su - root
+  111  su - postgres
+  112  cd /data/db
+  113  mkdir -p /data/db
+  114  sudo mkdir -p /data/db
+  115  cd /data/db
+  116  mongod
+  117  sudo chown -R $USER /data/db
+  118  mongod
+  119  mongo
+  120  mongod
+  121  mongo
+  122  sudo -s
+  123  cd /
+  124  cd /data
+  125  cd db
+  126  ls
+  127  sudo service mongod stop
+  128  sudo /etc/init.d/mongod stop
+  129  cd /etc/init.d
+  130  ls
+  131  cd /etc/init.d/mongodb stop
+  132  mongod status
+  133  sudo systemctl status mongod
+  134  sudo systemctl unmask mongod
+  135  sudo systemctl status mongod
+  136  sudo systemctl status mongodb
+  137  sudo service mongodb stop
+  138  sudo service mongodb start
+  139  mongo
+  140  mongod
+  141  mongo
+  142  sudo -
+  143  sudo -s
+  144  udo snap install openboard
+  145  sudo snap install openboard
+  146  openboard
+  147  sudo snap install openboard
+  148  locate openboard
+  149  sudo apt install mlocate
+  150  locate openboard
+  151  cd /snap
+  152  ls
+  153  cd netbeans/
+  154  ls
+  155  cd ..
+  156  cd openboard/
+  157  ls
+  158  cd current
+  159  ls
+  160  cd snap/
+  161  ls
+  162  pwd
+  163  cd Descargas/
+  164  ls
+  165  sudo dpkg -i openboard_ubuntu_20.04_1.6.1_amd64.deb 
+  166  sudo apt -f install
+  167  open
+  168  openboard
+  169  sudo service mongodb stop
+  170  mongo
+  171  sudo service mongodb start
+  172  mongo
+  173  sudo service mongodb stop
+  174  open
+  175  openboard
+  176  sudo dpkg -r openboard_ubuntu_20.04_1.6.1_amd64.deb 
+  177  sudo dpkg -l | grep openboard_ubuntu_20.04_1.6.1_amd64.deb 
+  178  sudo dpkg -1 | grep openboard_ubuntu_20.04_1.6.1_amd64.deb 
+  179  sudo dpkg -l | grep openboard_ubuntu_20.04_1.6.1_amd64.deb 
+  180  locate  /opt/openboard/etc/OpenBoard.config
+  181  ls
+  182  cd /opt/openboard/etc/
+  183  ls
+  184  gedit OpenBoard.config 
+  185  cd /etc
+  186  ls
+  187  cd /opt/openboard/etc/
+  188  ls
+  189  gedit OpenBoard.config 
+  190  sudo gedit OpenBoard.config
+  191  openboard
+  192  sudo gedit OpenBoard.config
+  193  openboard
+  194  mongod
+  195  mongo
+  196  open
+  197  psql
+  198  sudo service mongod stop
+  199  sudo -i -u oracle
+  200  psql
+  201  su - postgres
+  202  which pip
+  203  sudo apt-get install libpq-dev python-dev
+  204  sudo pip install pgcli
+  205  sudo apt-get install python-pip
+  206  sudo apt-get install python3-pip
+  207  sudo apt-get install libpq-dev python-dev
+  208  sudo pip install pgcli
+  209  pqcli
+  210  su - postgres
+  211  postgres
+  212  sudo - postgres
+  213  sudo -postgres
+  214  su - postgres
+  215  psql  -d postgres
+  216  psql  -postgres
+  217  psql  -d postgres
+  218  pgcli  -d postgres
+  219  gedit /etc/fstab
+  220  locate postgresql-42.2.23.jar
+  221  sudo chmod -R 777 Escritorio/compartida/
+  222  cd Escritorio
+  223  setfacl -R -m g::rwx compartida/
+  224  chmod -R 777 compartida/
+  225  chmod help
+  226  chmod --help
+  227  chmod g+s compartida
+  228  setfacl -d -m g::rwx compartida
+  229  setfacl -d -m g::rwx /compartida
+  230  sudo setfacl -d -m g::rwx /compartida
+  231  ñjsd
+  232  sudo setfacl -d -m g::rwx compartida
+  233  chmod -R 777 Escritorio//compartida/
+  234  chmod g+s Escritorio/compartida/
+  235  ls -l
+  236  cd Escritorio/
+  237  ls -l
+  238  cd compartida/
+  239  chown oracle:oracle \* 
+  240  cd ..
+  241  chown oracle:oracle compartida
+  242  ls -l
+  243  cd compartida
+  244  ls -l
+  245  chown oracle:oracle \*
+  246  ls
+  247  chown oracle:oracle novo.sql
+  248  ls
+  249  ls -l
+  250  cd ..
+  251  ls -l
+  252  chown oracle:oracle Escritorio/compartida
+  253  ls -l
+  254  cd Escritorio/
+  255  ls -l
+  256  sudo chown oracle compaartida 
+  257  sudo chown oracle compartida 
+  258  ls -l
+  259  chmog g-s compartida
+  260  chmod g-s compartida
+  261  ls -l
+  262  chmod g-s compartida
+  263  ls -l
+  264  cd ..
+  265  ls -l
+  266  sudo -s
+  267  sudo setfacl -d -m g::rwx compartida
+  268  sudo setfacl -d -m g::rwx Escritorio\compartida
+  269  sudo setfacl -d -m g::rwx Escritorio/compartida
+  270  chmod -R 777 Escritorio//compartida/
+  271  ls -l
+  272  cd Escritorio/
+  273  ls -l
+  274  cd Escritorio/
+  275  ls -l
+  276  sudo chown oracle:oracle compartida
+  277  ls -l
+  278  sudo gedit /etc/fstab
+  279  su 
+  280  sudo gedit /etc/fstab
+  281  chmod 777 Escritorio/compartidau
+  282  sudo gedit /etc/fstab
+  283  ln -s $PWD ~/Escritorio/
+  284  su - postgres
+  285  su postgres
+  286  pgcli
+  287  pgcli postgres
+  288  su - postgres
+  289  su - postgres 
+  290  su - postgres/postgres
+  291  su - postgres
+  292  psql postgres
+  293  psql postgres -u oracle
+  294  psql postgres 
+  295  psql postgres -U oracle
+  296  psql postgres -U proba
+  297  psql postgres -h localhos -U proba
+  298  psql postgres -h localhost -U proba
+  299  psql postgres proba
+  300  adduser proba password 'proba';
+  301  sudo adduser proba password 'proba';
+  302  sudo adduser proba passwd 'proba';
+  303  adduser --help
+  304  sudo adduser proba
+  305  psql postgres proba
+  306  psql postgres 
+  307  psql postgres -U postgres
+  308  psql postgres -U postgres -h localhost
+  309  psql postgres -U proba -h localhost
+  310  su - proba
+  311  psql postgres 
+  312  psql postgres -U postgres
+  313  psql postgres -U postgres -h localhost
+  314  psql postgres -U proba3 -h localhost
+  315  su proba3
+  316  su proba
+  317  psql postgres -U proba3 -h localhost
+  318  psql postgres
+  319  su - postgres
+  320  psql postgres
+  321  psql postgres -U postgres
+  322  psql postgres -U oracle
+  323  psql postgres -U oracle -h localhost
+  324  psql -d postgres -U oracle -h localhost
+  325  psql -d postgres -U postgres -h localhost
+  326  psql postgres
+  327  pgcli postgres
+  328  psql postgres
+  329  pgcli postgres
+  330  psql postgres
+  331  \i /home/oracle/Escritorio/sqld/sqlgrafo1.sql 
+  332  pgcli postgres
+  333  psql postgres
+  334  locate pg_hba.conf
+  335  gedit /etc/postgresql/12/main/pg_hba.conf
+  336  sudo gedit /etc/postgresql/12/main/pg_hba.conf
+  337  pgcli postgres
+  338  apt search intellij
+  339  sudo add-apt-repository ppa:mmk2410/intellij-idea
+  340  sudo apt-get update
+  341  sudo apt install intellij-idea-community
+  342  psql postgres
+  343  psql postgrespgcli postgres
+  344  pgcli postgres
+  345  clear
+  346  pgcli postgres
+  347  plsql postgres
+  348  psql postgres
+  349  pgcli postgres
+  350  psql postgres
+  351  clear
+  352  psql postgres
+  353  pgcli postgres
+  354  psql postgres
+  355  pgcli postgres
+  356  psql postgres
+  357  postgres
+  358  psql postgres
+  359  sudo  ufw allow 5432
+  360  ifconfig
+  361  sudo apt install net-tools
+  362  ifconfig
+  363  sudo  ufw allow 5432
+  364  ifconfig
+  365  sudo nano /etc/postgresql/12/main/postgresql.conf 
+  366  invoke-rc.d postgresql restart
+  367  ifconfig
+  368  sudo nano /etc/postgresql/12/main/pg_hba.conf 
+  369  invoke-rc.d postgresql reload
+  370  psql postgres postgres
+  371  su postgres
+  372  ifconfig
+  373  ping 192.168.43.140
+  374  psql postgres
+  375  apt install git
+  376  sudo apt install git
+  377  ifconfig
+  378  sudo apt install git
+  379  psql postgres
+  380  su postgres
+  381  psql postgres
+  382  phyton
+  383  apt-get install python
+  384  sudo apt-get install python
+  385  sudo apt autoremove
+  386  sudo apt-get install python
+  387  phyton
+  388  python
+  389  import psycopg2
+  390  gedit probapy.py
+  391  python probapy.py
+  392  python
+  393  pip install psycopg2-binary
+  394  python probapy.py
+  395  python
+  396  sudo apt-get remove  python
+  397  sudo apt-get uninstall  python
+  398  sudo apt-get remove  python
+  399  sudo apt-get install python
+  400  python
+  401  sudo yum install python-pip
+  402  sudo apt-get install python-pip
+  403  sudo apt-get install python3-pip
+  404  sudo pip install psycopg2==2.7.5 --ignore-installed
+  405  sudo pip install psycopg2
+  406  python probapy.py
+  407  sudo apt-get remove  pgcli
+  408  sudo apt autoremove
+  409  python probapy.py
+  410  python setup.py build
+  411  sudo python setup.py build
+  412  sudo apt-get install psycopg2
+  413  pip install psycopg2
+  414  python -V
+  415  sudo apt-get install python3.10.1
+  416  sudo pip psycopg2-binary
+  417  sudo pip install psycopg2-binary
+  418  python probapy.py
+  419  gedit probapy.py
+  420  gedit pro
+  421  python probapy.py
+  422  gedit probapy.py
+  423  python probapy.py
+  424  sudo apt-get install build-dep python-psycopg2
+  425  sudo apt-get install build-dep
+  426  sudo apt-search python-psycopg2
+  427  sudo apt search python-psycopg2
+  428  sudo apt search psycopg2
+  429  sudo apt-get install python-psycopg2
+  430  sudo apt-get install psycopg2
+  431  cd /media
+  432  cd sf_compartida
+  433  cd psycopg2-2.9.2/
+  434  ls
+  435  cd IN
+  436  ./INSTALL 
+  437  make
+  438  ls
+  439  python setup.py build
+  440  pg_config --version
+  441  echo $PATH
+  442  export PATH=/usr/lib/postgresql/12.9/bin/:$PATH
+  443  python setup.py build
+  444  pip install psycopg2
+  445  sudo apt-get install python3-dev
+  446  sudo apt-get install libpq-dev
+  447  locate pgconfig
+  448  locate pg_config
+  449  gedit /usr/bin/pg_config
+  450  python setup.py build
+  451  locate pg_config
+  452  export PATH=/usr/lib/postgresql/12/bin/:$PATH
+  453  python setup.py build
+  454  export PATH=/usr/lib/postgresql/12/bin/:$PATH
+  455  su - root
+  456  python setup.py build
+  457  su root
+  458  exit
+  459  phyton3 probapy.py
+  460  python3 probapy.py
+  461  psql postgres
+  462  python3 probapy.py
+  463  psql postgres
+  464  mongo
+  465  mongodb
+  466  mongod
+  467  mongo
+  468  mongod
+  469  mongo
+  470  pwd
+  471  cd sampledata/
+  472  mongorestore -d digg dump/digg
+  473  mongorestore -d training -c scores /dump/training/scores.bson
+  474  mongorestore -d training  /dump/training
+  475  mongorestore -d training -c scores dump/training/scores.bson
+  476  mongoimport -d twitter -c tweets twitter.json
+  477  BASE   base
+  478  mongo
+  479  psql postgres
+  480  gedit /home/oracle/fmastresjp.sql 
+  481  BASE   base
+  482  psql postgres
+  483  gedit /home/oracle/fmastresjp.sql 
+  484  psql postgres
+  485  gedit /home/oracle/fmastresjp.sql 
+  486  git clone git@github.com:TylerBrock/mongo-hacker.git
+  487  locate mongodb-compass
+  488  updatedb
+  489  sudo updatedb
+  490  locate mongodb-compass
+  491  sudo locate mongodb-compass
+  492  intellij-idea-community 
+  493  psql postgres
+  494  sudo apt-search toolbox
+  495  sudo apt search toolbox
+  496  psql postgres
+  497  drop table total;
+  498  create table total
+  499  ( coda varchar2(2),
+  500  nome varchar2(10),
+  501  total number
+  502  );psql postgres
+  503  drop table total;
+  504  create table total
+  505  ( coda varchar2(2),
+  506  nome varchar2(10),
+  507  total number
+  508  );
+  509  psql postgres
+  510  psql -d postgres -U oracle
+  511  psql -d postgres
+  512  su proba
+  513  exit
+  514  psql posgres
+  515  psql postgres
+  516  psql postgres -U proba2
+  517  psql postgres -U proba
+  518  psql postgres
+  519  createdb proba
+  520  psql postgres
+  521  psql -U proba createdb proba
+  522  adduser -m  proba -p proba
+  523  useradd  -m proba -p proba
+  524  psql -U proba createdb proba
+  525  psql -d postgres -U proba
+  526  psql -d postgrs -U proba
+  527  psql -d postgres -U proba
+  528  psql -d postgres -U postgres
+  529  su proba
+  530  locate pg_hba.conf
+  531  su root
+  532  sudo /etc/postgresql/12/main/pg_hba.conf
+  533  sudo gedit /etc/postgresql/12/main/pg_hba.conf
+  534  sudo gedit /usr/share/postgresql/12/pg_hba.conf.sample
+  535  sudo gedit /etc/postgresql/12/main/pg_hba.conf
+  536  psql postgres
+  537  exit
+  538  psql postgres
+  539  psql -d postgress -U postgress
+  540  psql -d postgress -U postgres
+  541  su - postgress
+  542  su - postgres
+  543  su postgres
+  544  su - postgres
+  545  psql -d postgres -U postgres
+  546  su - postgres
+  547  gedit /etc/postgresql/12/main/pg_hba.conf
+  548  su - root
+  549  psql postgres
+  550  sudo systemctl status postgresql
+  551  sudo systemctl stop postgresql
+  552  psql postgres
+  553  sudo systemctl start postgresql
+  554  sudo systemctl star postgresql
+  555  sudo systemctl start
+  556  sudo systemctl start postgres
+  557  sudo systemctl start postgresql
+  558  psql postgres
+  559  sudo systemctl stop postgresql
+  560  psql postgres
+  561  sudo systemctl start postgresql
+  562  sudo systemctl restart postgresql
+  563  psql postgres
+  564  psql posrgres
+  565  psql postgres
+  566  sudo -u postgres psql
+  567  psql postgres
+  568  locate pg_hba.conf
+  569  nano /etc/postgresql/12/main/pg_hba.conf
+  570  sudo nano /etc/postgresql/12/main/pg_hba.conf
+  571  locate pg_hba.conf
+  572  sudo nano /etc/postgresql/12/main/pg_hba.conf
+  573  systemctl restart postgresql
+  574  psql postgres postgres
+  575  psql postgres
+  576  psql postgres -U a
+  577  exit
+  578  psql postgres -U postgres
+  579  psql postgres -U a
+  580  psql postgres -U postgres
+  581  su - postgres
+  582  locate pg_hba.conf
+  583  sudo nano /etc/postgresql/12/main/pg_hba.conf
+  584  systemctl restart postgresql
+  585  psql postgres -U postgres
+  586  psql postggres
+  587  psql postgres
+  588  psql postgres user4
+  589  psql postgres
+  590  psql postgres postgres
+  591  pg_dump -U postgres -a  --table=euxia.traballan --table=euxia.stock --table=euxia.componen  -Fc farmacia > ardatos.dump;
+  592  psql farmacia postgres
+  593  pg_restore -l ardatos.dump >l.txt
+  594  gedit l.txt
+  595  pg_restore -U postgres -d farmacia -L l.txt ardatos.dump
+  596  psql farmacia postgres
+  597  pg_restore -l arestructura.dump >l.txt
+  598  gedit l.txt
+  599  pg_restore -U postgres -d farmacia -L l.txt arestructura.dump
+  600  psql farmacia postgres
+  601  pg_restore -l ardatos.dump >l.txt
+  602  gedit l.txt
+  603  pg_restore -U postgres -d farmacia -L l.txt ardatos.dump
+  604  psql farmacia postgres
+  605  lsb_release -a
+  606  psql postgres postgres
+  607  psql farmacia postgres
+  608  psql postgres
+  609  psql postgres oracle
+  610  for i in 'psql postgres -tc "select tablename from pg_tables where schemaname='public'"'; do psql potgres -c "drop table $i cascade"; done;
+  611  for i in 'psql postgres -tc "select tablename from pg_tables where schemaname='public'"'; do psql postgres -c "drop table $i cascade"; done;
+  612  psql postgres oracle
+  613  psql postgres
+  614  cd media/oracle
+  615  cd /media/oracle
+  616  cd VBox_GAs_6.1.36/
+  617  sh autorun.sh 
+  618  init 0
+  619  sudo apt -purgue remove jetbrains
+  620  sudo apt -purge remove jetbrains
+  621  sudo apt --purge remove jetbrains
+  622  sudo apt --purge remove inteligy
+  623  sudo apt --purge remove intellij
+  624  sudo apt --purge remove intelij
+  625  sudo apt --purge remove IntelliJ
+  626  sudo apt --purge remove Toolbox
+  627  locate toolbox
+  628  apt-get --purge remove Toolbox
+  629  sudo apt-get --purge remove Toolbox
+  630  sudo apt-get sudo apt install build-essential dkms linux-headers-generic 
+  631  sudo rcvboxadd setup
+  632  psql postgres
+  633  psqul postgres
+  634  psql postgres
+  635  '/home/oracle/Escritorio/alimentacionp.sql'  
+  636  psql postgres 
+  637  psql postgres
+  638  psql postgres 
+  639  git status
+  640  psql postgres
+  641  git pull origin master
+  642  psql postgres
+  643  pg_dump -u postgres -Fp basex > basex.dump
+  644  pg_dump -U postgres -Fp basex > basex.dump
+  645  ls
+  646  pg_dump -U postgres -Fp -t
+  647  psql postgres
+  648  gedit basexua.dump
+  649  pg_dump -U ua  -Fp -t --inserts  probauat1 basex > basexua.dump
+  650  pg_dump -U postgres -Fp  basex > basexcompleta.dump
+  651  gedit basexuat1.dump
+  652  psql postgres
+  653  gedit basexua.dump
+  654  pg_dump -U ua  -Fp  --inserts  probauat1 basex > basexcompleta.dump
+  655  pg_dump -U postgres  -Fp  --inserts basex > basexcompleta.dump
+  656  gedit basexcompleta.dump
+  657  pg_dump -U ua -t 'san.probauat1' --insets  -Fp  basex > uat1.dump
+  658  pg_dump -U ua -t 'sa.probauat1' --insets  -Fp  basex > uat1.dump
+  659  pg_dump -U ua -t 'sa.probauat1' --inserts -Fp  basex > uat1.dump
+  660  gedit uat1.dump
+  661  pg_dump -U postgres -T 'sa.probauat1' --inserts -Fp  basex > uat1.dump
+  662  gedit uat1.dump
+  663  pg_dump -U postgres -n 'sa' --inserts -Fp  basex > uat1.dump
+  664  gedit uat1.dump
+  665  pg_dump -U postgres -n 'sa' --inserts -Fp  basex > uat1.dump
+  666  pg_dump -U postgres -N 'sa' --inserts -Fp  basex > uat1.dump
+  667  gedit uat1.dump
+  668  pg_dump -U postgres -n 's*' --inserts -Fp  basex > uat1.dump
+  669  gedit uat1.dump
+  670  pg_dump -U postgres -t 'p*' --inserts -Fp  basex > uat1.dump
+  671  gedit uat1.dump
+  672  pg_dump -U postgres -t 'sa.p*' --inserts -Fp  basex > uat1.dump
+  673  gedit uat1.dump
+  674  pg_dump -U postgres -t 's*.p*' --inserts -Fp  basex > uat1.dump
+  675  gedit uat1.dump
+  676  pg_dump -U postgres -n 'sa' -t 's*.p*' --inserts -Fp  basex > uat1.dump
+  677  gedit uat1.dump
+  678  pg_dump -U postgres  -Fc  basex > basexcomprimida.dump
+  679  gedit basexcomprimida.dump
+  680  dropb -U postgres basex
+  681  dropdb -U postgres basex
+  682  \c basex postgres
+  683  pg_restore -U postgres -C -d postgres basexcomprimida.dump
+  684  psql basex postgres 
+  685  createdb -U postgres -T template0 basez
+  686  pg_restore -U postgres -d basez basexcomprimida.dump 
+  687  psql postgres
+  688  psql postgres postgres
+  689  dropdb -U postgres basex;
+  690  dropdb -U postgres basez;
+  691  pg_restore -l basexcomprimida.dump > listado.txt
+  692  gedit listado.txt
+  693  pg_restores -U postgres -L listado.txt  basexcomprimida.dump
+  694  pg_restore -U postgres -L listado.txt  basexcomprimida.dump
+  695  pg_restore -U postgres -d basex -L listado.txt  basexcomprimida.dump
+  696  \c postgres postgres
+  697  psql  postgres postgres
+  698  pg_restore -U postgres -d basex -L listado.txt  basexcomprimida.dump
+  699  psql  basex  postgres
+  700  createdb -U postgres basex
+  701  createdb -U postgres basek
+  702  dropdb -u postgres basex
+  703  dropdb -U postgres basex
+  704  pg_restore -U postgres -C -d postgres -L listado.txt  basexcomprimida.dump
+  705  psql basex postgres
+  706  pg_dump -Fp  futbol20 > copiafutbol20.dump
+  707  pg_dump -U postgres -Fp  futbol20 > copiafutbol20.dump
+  708  gedit copiafutbol20.dump
+  709  dropdb -U postgres futbol20;
+  710  createdb -U postgres futbol20;
+  711  psql futbol20  postgres
+  712  gedit copiafutbol20.dump
+  713  history;
+  714  history > datosBaseDeDatos.txt;
+  715  pg_dump -U postgres -Fp  futbol20 > copiafutbol20c.dump
+  716  gedit copiafutbol20c.dump
+  717  pg_dump -U postgres -Fc  futbol20 > copiafutbol20c.dump
+  718  gedit copiafutbol20c.dump
+  719  dropdb -U postgres futbol20;
+  720  pg_restore -U postgres -C -d postgres  copiafutbol20c.dump
+  721  psql futbol20 userfu;
+  722  history > datosBaseDeDatos.txt;
+  723  creatdb -U postgres -T template0 futbol30 
+  724  createdb -U postgres -T template0 futbol30 
+  725  pg_restore -U postgres -d futbol30 copiafutbol20.dump
+  726  pg_restore -U postgres -d futbol30 copiafutbol20c.dump
+  727  psql futbol30 postgres;
+  728  history > datosBaseDeDatos.txt;

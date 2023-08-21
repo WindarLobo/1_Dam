@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<listaproductos>
+    <articulo>
+               <codigo>CD12</codigo>
+              <descripcion autor="Juan">Monitor</descripcion>
+    </articulo>
+    <articulo>
+           <codigo>CA12</codigo>
+           <descripcion autor="Pepe">Monitor</descripcion>
+    </articulo>
+    <articulo>
+           <codigo>AA99</codigo>
+           <descripcion>Teclado</descripcion>
+    </articulo>
+</listaproductos>

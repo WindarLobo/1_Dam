@@ -1,0 +1,157 @@
+/*resumen{
+background-color:  #f43c6a ;
+font-size: 30px;
+margin-left: 1em;
+
+font-family: serif;
+}
+edificio{
+	display: list-item; 
+	margin-left: 4em;
+	list-style-type:disc;}*/
+
+/*
+	resumen{
+font-size: 1.5em;
+text-transform: uppercase;
+margin-left: 2em;
+}
+nombre,ciudad,datos{
+	display: list-item; 
+	margin-left: 4em;
+	list-style-type:disc;}
+	nombre{font-weight: bold;
+
+	}*/
+	/*resumen{	 
+font-size: 2em;
+}
+altura,pisos{
+	display: list-item; 
+	margin-left: 2em;
+	list-style-type:disc;}
+
+	nombre{
+padding-left: 0.2em;
+display: block; 
+ list-style-type:none;
+ margin: auto;
+  padding-top: 1em;
+	}
+
+	completado,ciudad { display: none;}*/
+
+/*
+
+altura,pisos { 
+display: none;}
+
+resumen{
+  display: block;
+  font-size: 2em;
+  width: 100%;
+    height: 15px;
+}
+edificio{
+   margin: 10px;
+  line-height: 10%;
+}
+nombre {
+   display: block;
+  counter-reset: contador;
+}
+nombre:before, completado:before, ciudad:before {
+  content: counter(contador, lower-alpha) ".";
+}
+
+nombre, completado, ciudad {
+ display: block;
+  margin-left: 30px;
+  margin-top:23px;
+  counter-increment: contador;
+  list-style: lower-alpha inside; 
+}*/
+
+/*resumen{
+display:list-item; 
+  font-size: 2em;
+  height: 25px;
+}
+altura,pisos{
+	display: list-item; 
+	margin-left: 5em;
+	list-style-type:disc;
+	 }
+nombre{
+	display: list-item; 
+	margin: 25px;
+	list-style-type: none; 
+     height: 2px;
+     list-style-type:none;
+     counter-increment: contador;
+}
+
+ciudad,completado { display: none;}
+
+nombre:before {
+  content: counter(contador, decimal) ".";
+ 
+}
+edificios{
+	counter-reset: contador;
+}*/
+
+/*resumen{
+font-size: 25px;
+text-transform: capitalize;
+font-weight: bold;}
+
+edificio{
+	display:block; }
+
+	nombre{
+		font-weight: bolder;}
+
+	rascacielos{
+		background:   #b6c183  ;
+		border:  2px solid; 
+		margin: 80px; 
+		padding: 20px;
+		 width:75%;  
+	}
+	ciudad:before{content: "(";}  
+	ciudad:after{content: ")";} /*Esto es para el parentencis*/ 
+	
+/*resumen{
+font-size: 2em;
+display:block;
+margin-bottom: 10px;
+}
+altura,pisos,completado{
+	display: list-item; 
+	margin-left: 4em;
+	list-style-type:circle;
+	}
+	
+nombre{
+
+	list-style-type:none;
+	 counter-increment: contador;
+	 padding-left: 1em;
+}
+nombre:before {
+  content: counter(contador, disc) " ";
+ 
+}
+edificios{
+	counter-reset: contador;
+}	
+rascacielos{
+
+		background:  #5dade2 ;
+		border:  1px solid; 
+		margin: 4em; 
+		padding: 50px;
+		width:50%;  
+*/
+ 

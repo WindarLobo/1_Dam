@@ -1,0 +1,14 @@
+h1 {for-size: 2em
+color : black;
+background-color:#e36540;}
+h2{color: black;
+background-color:#f3a58e}
+h3 { color: black;
+background-color:#e36540
+}
+em {color : blue;text-decoration: underline;font-style: normal;
+	}
+
+	p{background-color:#f3a58e}
+	strong { color : #588927; font-weight: normal;}
+	

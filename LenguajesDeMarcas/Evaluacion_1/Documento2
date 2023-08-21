@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda[
+<!ELEMENT agenda (persona+)>
+<!ELEMENT persona (nombre,tlf)>
+<!ELEMENT  nombre (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+]>
+ <agenda>
+   <persona>
+             <nombre>Ricardo Borriquero</nombre>
+       <tlf>951345678</tlf>
+    </persona>
+  <persona>
+    <nombre>Eva Risto</nombre>
+     <tlf>955837659</tlf>
+  </persona>
+  </agenda>

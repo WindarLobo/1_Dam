@@ -1,0 +1,64 @@
+nombreCentro{
+	display: block;
+	text-transform: uppercase;font-size: 20px;
+	text-decoration: underline;counter-reset: contador;}
+
+	nombre{margin-left: 3em;
+		display: list-item;margin-top: 12px;
+		 list-style-type:none;counter-increment: contador;}
+grado,decretoTitulo{
+	display: none;}
+	nombre:before {
+  content: counter(contador, decimal) ".";}
+  centro{
+  	margin-top: 15em;margin-left: 35em;
+  }
+
+ /* nombreCentro{
+  	display: block;font-size: 2em;
+  height: 25px;}
+
+  nombre,decretoTitulo{margin-left: 3em;
+		display: list-item;margin-top: 12px;
+		list-style-type:square;}
+
+ decretoTitulo{
+  	margin-left: 5em;}
+		
+  grado{
+  	display: none;}
+  nombreCentro:after {content:"-centroplurilingue";}
+  centro{
+  	margin-top: 15em;margin-left: 35em;
+  }*/
+
+/*
+centro 
+{display: table;border:black 1px solid;margin: auto;margin-top: 15em; color:  #212f3c ;}
+
+ciclo{display: table-row;}
+
+nombre, grado, decretoTitulo{
+	display: table-cell;
+	border:1px solid black;
+	padding: 8px;}
+nombreCentro{
+display: table-caption;
+	text-align: center;
+	font-size:1.5em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}*/
+/*centro{
+display: table;border:black 1px solid;padding: 13px 13px 3px 13px ;
+margin: auto;margin-top: 15em;}
+ciclo
+ {margin-top:1em ;
+display: table-row;}
+nombre, grado, decretoTitulo{
+	display: table-cell;
+	border:1px solid black;
+	padding: 8px;}
+nombreCentro {
+display: none;}*/

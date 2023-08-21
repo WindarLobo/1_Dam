@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE espacio [
+<!ELEMENT espacio (b:banco,d:banco,o:banco)>
+<!ELEMENT b:banco (#PCDATA)>
+<!ELEMENT d:banco (#PCDATA)>
+<!ELEMENT o:banco (#PCDATA)>
+<!ATTLIST espacio xmlns:b CDATA #REQUIRED  xmlns:d CDATA #FIXED "http://dinero"  xmlns:o CDATA #FIXED  "http://objecto">
+]>
+<espacio xmlns:b="http://betta" xmlns:d= "http://dinero" xmlns:o="http://objecto">
+<b:banco>Betta</b:banco>
+<d:banco>BBVA</d:banco>
+<o:banco>Banco  respaldo</o:banco>
+</espacio>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lugares [
+<!ELEMENT lugares  (pais+)>
+<!ELEMENT pais (nombre,importanciaturistico,precioentrada,hotel,preciodelhotel,direccionhotel,tlfdelhotel,restaurante,direccion,precio,tlf,actividad,precioactividad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ENTITY nombre "España">
+<!ENTITY nombre "Italia">
+<!ELEMENT importanciaturistico (#PCDATA)>
+<!ELEMENT precioentrada (#PCDATA)>
+<!ELEMENT hotel EMPTY>
+<!ELEMENT preciodelhotel EMPTY>
+<!ELEMENT direccionhotel EMPTY>
+<!ELEMENT tlfdelhotel EMPTY>
+<!ELEMENT restaurante (#PCDATA)>
+<!ATTLIST restaurante nombre  CDATA #REQUIRED>
+<!ELEMENT direccion  (#PCDATA)>
+<!ATTLIST  direccion  restaurante CDATA #REQUIRED>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST  precio  restaurante CDATA #REQUIRED>
+<!ELEMENT tlf (#PCDATA)>
+<!ATTLIST  tlf  restaurante CDATA #REQUIRED>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT  precioactividad  (#PCDATA)>
+<!ENTITY  precioactividad "10 Euros">
+]>
+<lugares>
+<pais>
+<nombre>&nombre;</nombre>
+<importanciaturistico>PalacioReal</importanciaturistico>
+<precioentrada>50Euros</precioentrada>
+<hotel/>
+<preciodelhotel/>
+<direccionhotel/>
+<tlfdelhotel/>
+<restaurante nombre="El Jardín de Orfila by Mario Sandoval" ></restaurante>
+<direccion restaurante = "C. de Orfila, 6, 28010 Madrid"></direccion>
+<precio restaurante ="35euros"></precio>
+ <tlf restaurante ="917027772"> </tlf>
+<actividad>Hipódromo de la Zarzuela</actividad>
+<precioactividad>&precioactividad;</precioactividad>
+</pais>
+
+<pais>
+<nombre>&nombre;</nombre>
+<importanciaturistico>ColiceodeRoma</importanciaturistico>
+<precioentrada>50Euros</precioentrada>
+<hotel/>
+<preciodelhotel/>
+<direccionhotel/>
+<tlfdelhotel/>
+<restaurante nombre="Restaurante Turín " ></restaurante>
+<direccion restaurante = "Via Sant'Antonio da Padova 3, 10121 Turín Italiad"></direccion>
+<precio restaurante ="105 Euros"></precio>
+ <tlf restaurante ="+39 011 1950 7972"> </tlf>
+<actividad>Hipódromo de la Zarzuela</actividad>
+<precioactividad>&precioactividad;</precioactividad>
+</pais>
+</lugares>
+

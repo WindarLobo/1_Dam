@@ -1,0 +1,39 @@
+/*tituloCatalogo,titulo, director, actor
+{display: block;}
+tituloCatalogo: first-letter
+{font-size: 2em;}
+primero titulo { 
+	color: red;
+
+}
+pelicula {
+	display: block;border: 4px double blue;margin-bottom: 5px;background-color:  
+#fbbbeb ;
+}*/
+
+
+titulo{ 
+	display: list-item; 
+	margin-left: 3em;
+	list-style-type:none;
+}
+director,actor{
+	display: list-item; list-style:none;
+	margin-left: 6em;
+
+}
+director:before,actor:before{
+content: counter(contadordos,upper-alpha)".";
+counter-increment: contadordos;
+}
+peliculas{
+	counter-reset: contador;
+}
+pelicula{
+	counter-reset: contadordos;
+}
+	titulo:before{
+		content: counter(contador,decimal)".";
+		counter-increment: contador;
+		
+	}

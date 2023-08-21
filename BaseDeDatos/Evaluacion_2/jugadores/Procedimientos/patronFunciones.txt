@@ -1,0 +1,17 @@
+CREATE [or replace] FUNCTION function_name(param_list)
+	RETURNS return_type --lo que returna
+	LANGUAGE PLPGSQL
+    AS 
+$$  
+DECLARE    
+ --variable declaration       declaracion de la variable
+BEGIN
+ --logic   logica del programa, metodos etc, se pone la consulta de postgres añadiendo ...into variable ...
+ --ejemplo select count(*) into e from xogador where codequ=nombre; 
+ /*tambien puedes hacer:
+ e = (select count(*) from xogador where codequ=nombre);
+ */ 
+ 
+ RETURN x; --la variable que devuelve
+END;
+$$;

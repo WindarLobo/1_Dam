@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<!--Ejercicio 1-
+ <xs:element name="materiales">
+    <xs:complexType>
+      <xs:sequence>
+    
+            <xs:element name="material"  type="xs:string" />
+              <xs:element name="altura">
+                        <xs:simpleType>
+                 <xs:restriction base="xs:integer">
+                     <xs:enumeration value="10"/>
+                      <xs:enumeration value="12"/>
+               <xs:enumeration value="14"/>
+               </xs:restriction>
+                 </xs:simpleType>
+</xs:element>
+
+     <xs:element name="precio" type="xs:decimal" />
+     
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>-->
+    
+<!--Ejercicio 2-
+ <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+    
+            <xs:element name="nombre"  type="xs:string" />
+               
+               <xs:element name="altura">
+                        <xs:simpleType>
+                 <xs:restriction base="xs:decimal">
+                     <xs:fractionDigits value="2"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+              
+               <xs:element name="peso">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:decimal">
+                     <xs:fractionDigits value="3"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+
+    
+     
+      </xs:sequence>
+    </xs:complexType>
+    </xs:element>-->
+             <!--Ejercicio 3- 
+
+ <xs:element name="temperaturas">
+    <xs:complexType>
+      <xs:sequence>
+    
+            <xs:element name="dia"  type="xs:string" />
+                             <xs:element name="maxima">
+                        <xs:simpleType>
+                 <xs:restriction base="xs:integer">
+                     <xs:minInclusive value="-10"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+              
+               <xs:element name="minima">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                     <xs:maxInclusive value="42"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+
+            </xs:sequence>
+    </xs:complexType>
+    </xs:element>-->
+ 
+      <!--Ejercicio 4-
+      <xs:element name="alumno">
+    <xs:complexType>
+      <xs:sequence>
+   
+            <xs:element name="nombre"  type="xs:string" />
+                             <xs:element name="edad">
+                        <xs:simpleType>
+                 <xs:restriction base="xs:integer">
+                     <xs:minInclusive value="0"/>
+                            <xs:maxInclusive value="100"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+               <xs:element name="electrodomestico">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                     <xs:pattern value ="Balay|Sony"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+                  <xs:element name="letra">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                     <xs:pattern value ="[a-z]"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+               <xs:element name="let">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                     <xs:pattern value ="[a-z]"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+             
+                 <xs:element name="letras">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                     <xs:pattern value ="[A-Z]{3}"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+              <xs:element name="clave">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                     <xs:pattern value ="[a-z 0-9]{6}"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+               <xs:element name="password">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                  <xs:length value ="9"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+         <xs:element name="direccion">
+         <xs:complexType>
+         <xs:sequence>
+          <xs:element name="calle"  type="xs:string" />
+         <xs:element name="ciudad"  type="xs:string" />
+         </xs:sequence>
+         </xs:complexType>
+         </xs:element>
+         <xs:element name="telefono">
+                  <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                  <xs:length value ="9"/>
+                  </xs:restriction>
+                 </xs:simpleType>
+              </xs:element>
+             
+            </xs:sequence>
+    </xs:complexType>
+    </xs:element>-->
+
+  
+    <xs:element name="triangulos">
+    <xs:complexType>
+      <xs:sequence>
+    
+                           <xs:element name="triangulo" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType mixed="true">
+                 <xs:attribute name="base " type="xs:integer" />
+                   <xs:attribute name="altura " type="xs:integer" />
+                        </xs:complexType>
+                </xs:element>
+                
+  </xs:sequence>
+   </xs:complexType>
+</xs:element>
+</xs:schema>
+                         
+                 

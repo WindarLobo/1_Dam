@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT paises (pais+)>
+<!DOCTYPE datos[
+<!ENTITY n "Windar lobo">
+<!ENTITY d "Calle CRREGl 36">
+]>
+<datos>
+<nombre>&n;</nombre>
+<direccion>&d;</direccion>
+</libro>

@@ -1,0 +1,107 @@
+basex=# \c postgres postgres
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1), server 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1))
+You are now connected to database "postgres" as user "postgres".
+postgres=# create database futbol3;
+CREATE DATABASE
+postgres=# create database futbol4;
+CREATE DATABASE
+postgres=# \c futbol4 postgres
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1), server 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1))
+You are now connected to database "futbol4" as user "postgres".
+futbol4=# create role venta;
+CREATE ROLE
+futbol4=# create role conta;
+CREATE ROLE
+futbol4=# create user alex with password 'alex';
+CREATE ROLE
+futbol4=# create user berto with password 'berto';
+CREATE ROLE
+futbol4=# grant venta to alex;
+GRANT ROLE
+futbol4=# grant conta  to berto;
+GRANT ROLE
+futbol4=# \du
+futbol4=# grant conta  to berto;
+GRANT ROLE
+futbol4=# \du
+futbol4=# CREATE TABLE facturas (
+id int not null primary key,
+finalized bool not null default false,
+venta_notes text,
+details jsonb
+);
+CREATE TABLE
+INE 1: nsert into facturas (id, finalized, venta_notes, details) va...
+        ^
+INSERT 0 1
+futbol4=# insert into facturas (id, finalized, venta_notes, details) values (202347, false, 'call to be scheduled', '{"details":"..."}');
+ERROR:  duplicate key value violates unique constraint "facturas_pkey"
+DETAIL:  Key (id)=(202347) already exists.
+futbol4=# insert into facturas (id, finalized, venta_notes, details) values (202346, true, 'volume discount', '{"details":"..."}');
+INSERT 0 1
+futbol4=# delet from facturas;
+ERROR:  syntax error at or near "delet"
+LINE 1: delet from facturas;
+        ^
+futbol4=# delete from facturas;
+grant select,insert,delete,update on facturas to alex;
+futbol4=# \dp facturas
+
+
+a(isnert )r(select)w(update)d(delete)
+
+
+\dp facturas
+                                  Access privileges
+ Schema |   Name   | Type  |     Access privileges     | Column privileges | Policies 
+--------+----------+-------+---------------------------+-------------------+----------
+ public | facturas | table | postgres=arwdDxt/postgres+|                   | 
+        |          |       | alex=arwd/postgres        |                   | 
+(1 row)
+
+futbol4=# \c futbol4 alex
+
+futbol4=> select user;
+ user 
+------
+ alex
+(1 row)
+
+ insert into facturas (id, finalized, venta_notes, details) values (202345, true, 'repeat customer', '{"details":"..."}');
+
+insert into facturas (id, finalized, venta_notes, details) values (202346, true, 'volume discount', '{"details":"..."}');
+ 
+ insert into facturas (id, finalized, venta_notes, details) values (202347, false, 'call to be scheduled', '{"details":"..."}');
+ futbol4=> \c futbol4 postgres;
+Password for user postgres: 
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1), server 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1))
+You are now connected to database "futbol4" as user "postgres".
+futbol4=# grant select (id,finalized,details) on facturas to conta;
+GRANT
+                     ^
+futbol4=> select * from facturas;
+ERROR:  permission denied for table facturas
+futbol4=> select id,finalized from factura;
+ERROR:  relation "factura" does not exist
+LINE 1: select id,finalized from factura;
+                                 ^
+futbol4=> select id,finalized from facturas;
+   id   | finalized 
+--------+-----------
+ 202345 | t
+ 202346 | t
+ 202347 | f
+(3 rows)
+
+futbol4=> select id,finalized,details  from facturas;
+   id   | finalized |      details       
+--------+-----------+--------------------
+ 202345 | t         | {"details": "..."}
+ 202346 | t         | {"details": "..."}
+ 202347 | f         | {"details": "..."}
+(3 rows)
+
+futbol4=> select id,finalized,detailsv venta_notes
+alter table facturas enable row level security;
+ALTER TABLE
+acticva la segurida en nive  fila 

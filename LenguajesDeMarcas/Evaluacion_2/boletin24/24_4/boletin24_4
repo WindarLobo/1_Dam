@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin24/24_4/boletin24_4.xsd"> 
+<alumno dni="111">
+<nombre>Juan Garcia</nombre>
+<direccion>
+<calle>Avenida de la Fuente</calle>
+<numero>6</numero>
+<ciudad>Vigo</ciudad>
+<provincia>Pontevedra</provincia>
+</direccion>
+<telefono>924555555</telefono>
+</alumno>
+<alumno dni="222">
+<nombre>Jose Sanchez</nombre>
+<direccion>
+<calle>Calle Ancha</calle>
+<numero>3</numero>
+<ciudad>Lalín</ciudad>
+<provincia>Pontevedra</provincia>
+</direccion>
+<telefono>924550000</telefono>
+</alumno>
+</alumnos> 

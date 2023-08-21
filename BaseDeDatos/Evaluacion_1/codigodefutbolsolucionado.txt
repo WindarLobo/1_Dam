@@ -1,0 +1,1425 @@
+oracle@oracle-VirtualBox:~$ psql postgres
+Password for user oracle: 
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  password authentication failed for user "oracle"
+oracle@oracle-VirtualBox:~$ psql postgres
+Password for user oracle: 
+psql (14.5 (Ubuntu 14.5-0ubuntu0.22.04.1), server 12.12 (Ubuntu 12.12-0ubuntu0.20.04.1))
+Type "help" for help.
+
+postgres=> \d
+          List of relations
+ Schema |   Name    | Type  | Owner  
+--------+-----------+-------+--------
+ public | adestra   | table | oracle
+ public | colexiado | table | oracle
+ public | equipo    | table | oracle
+ public | estadio   | table | oracle
+ public | interven  | table | oracle
+ public | partido   | table | oracle
+ public | xoga      | table | oracle
+ public | xogador   | table | oracle
+(8 rows)
+
+postgres=> selec * from xoga;
+ERROR:  syntax error at or near "selec"
+LINE 1: selec * from xoga;
+        ^
+postgres=> select * from xoga;
+ codx | codpar | posto | goles 
+------+--------+-------+-------
+ x1   | p1     |     1 |     1
+ x3   | p1     |     5 |     0
+ x6   | p1     |     3 |     2
+ x8   | p1     |     6 |     1
+ x15  | p1     |     2 |     0
+ x5   | p2     |     1 |     3
+ x6   | p2     |     2 |     0
+ x9   | p2     |     3 |     1
+ x10  | p2     |     4 |     2
+ x11  | p2     |     6 |     0
+ x10  | p3     |     1 |     2
+(11 rows)
+
+postgres=> select * from xogador
+postgres-> select * from xogador;
+ERROR:  syntax error at or near "select"
+LINE 2: select * from xogador;
+        ^
+postgres=> select * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 1990-01-03
+ x2   | juan     | e3     |    1500 |        0 | 1991-04-13
+ x3   | pedro    | e4     |    1000 |          | 1990-11-12
+ x4   | alberto  | e2     |    1000 |        5 | 1990-07-01
+ x5   | juan     | e1     |    1200 |       10 | 1990-08-23
+ x6   | luis     | e1     |     800 |       20 | 1990-09-12
+ x7   | carlos   | e3     |         |          | 1990-10-08
+ x8   | pedro    | e4     |    3000 |        5 | 1990-06-07
+ x9   | bent     | e4     |    1500 |       10 | 1990-04-23
+ x10  | manuel   | e4     |         |       10 | 1990-12-25
+ x11  | antonio  | e3     |    2000 |          | 1990-06-16
+ x12  | eliseo   | e4     |    1350 |       10 | 1990-05-14
+ x13  | juan     | e2     |    2000 |        5 | 1990-04-07
+ x14  | federico | e1     |    1000 |       10 | 1990-01-05
+ x15  | leon     | e1     |         |          | 1990-11-27
+(15 rows)
+
+postgres=> select * from xogador where salario>2000;
+ codx | nomx  | codequ | salario | comision |   datan    
+------+-------+--------+---------+----------+------------
+ x8   | pedro | e4     |    3000 |        5 | 1990-06-07
+(1 row)
+
+postgres=> select * from xogador where salario>1500;
+ codx |  nomx   | codequ | salario | comision |   datan    
+------+---------+--------+---------+----------+------------
+ x1   | luis    | e1     |    2000 |          | 1990-01-03
+ x8   | pedro   | e4     |    3000 |        5 | 1990-06-07
+ x11  | antonio | e3     |    2000 |          | 1990-06-16
+ x13  | juan    | e2     |    2000 |        5 | 1990-04-07
+(4 rows)
+
+postgres=> select * from xogador where salario>1500 and comision is null; 
+ codx |  nomx   | codequ | salario | comision |   datan    
+------+---------+--------+---------+----------+------------
+ x1   | luis    | e1     |    2000 |          | 1990-01-03
+ x11  | antonio | e3     |    2000 |          | 1990-06-16
+(2 rows)
+
+postgres=> selec codx, nomx from  xugadores where datan>'7/5/1990';
+ERROR:  syntax error at or near "selec"
+LINE 1: selec codx, nomx from  xugadores where datan>'7/5/1990';
+        ^
+postgres=> selec codx, nomx from  xogadores where datan>'7/5/1990';
+ERROR:  syntax error at or near "selec"
+LINE 1: selec codx, nomx from  xogadores where datan>'7/5/1990';
+        ^
+postgres=> selec codx, nomx from  xogador where datan>'7/5/1990';
+ERROR:  syntax error at or near "selec"
+LINE 1: selec codx, nomx from  xogador where datan>'7/5/1990';
+        ^
+postgres=> set datestyle = "ISO, DMY";
+set datestyle to DMY, SQL;
+show datestyle;
+SET
+SET
+ DateStyle 
+-----------
+ SQL, DMY
+(1 row)
+
+postgres=> set datestyle = "ISO, DMY";
+set datestyle to DMY, SQL;
+show datestyle;
+SET
+SET
+ DateStyle 
+-----------
+ SQL, DMY
+(1 row)
+
+postgres=> selec codx, nomx from  xogador where datan>'7/5/1990';
+ERROR:  syntax error at or near "selec"
+LINE 1: selec codx, nomx from  xogador where datan>'7/5/1990';
+        ^
+postgres=> select codx, nomx, from  xogador where datan>'7/5/1990';
+ERROR:  syntax error at or near "from"
+LINE 1: select codx, nomx, from  xogador where datan>'7/5/1990';
+                           ^
+postgres=> select codx, nomx, data  from  xogador where datan>'7/5/1990';
+ERROR:  column "data" does not exist
+LINE 1: select codx, nomx, data  from  xogador where datan>'7/5/1990...
+                           ^
+HINT:  Perhaps you meant to reference the column "xogador.datan".
+postgres=> select codx, nomx, data  from  xogador where datan>'7/5/1990';
+ERROR:  column "data" does not exist
+LINE 1: select codx, nomx, data  from  xogador where datan>'7/5/1990...
+                           ^
+HINT:  Perhaps you meant to reference the column "xogador.datan".
+postgres=> select codx,nomx,datan from xogador where datan>'7/5/1990';
+ codx |  nomx   |   datan    
+------+---------+------------
+ x2   | juan    | 13/04/1991
+ x3   | pedro   | 12/11/1990
+ x4   | alberto | 01/07/1990
+ x5   | juan    | 23/08/1990
+ x6   | luis    | 12/09/1990
+ x7   | carlos  | 08/10/1990
+ x8   | pedro   | 07/06/1990
+ x10  | manuel  | 25/12/1990
+ x11  | antonio | 16/06/1990
+ x12  | eliseo  | 14/05/1990
+ x15  | leon    | 27/11/1990
+(11 rows)
+
+postgres=> select codx,nomx,datan from xogador where datan>'7/5/1990'or nomx='juan';
+ codx |  nomx   |   datan    
+------+---------+------------
+ x2   | juan    | 13/04/1991
+ x3   | pedro   | 12/11/1990
+ x4   | alberto | 01/07/1990
+ x5   | juan    | 23/08/1990
+ x6   | luis    | 12/09/1990
+ x7   | carlos  | 08/10/1990
+ x8   | pedro   | 07/06/1990
+ x10  | manuel  | 25/12/1990
+ x11  | antonio | 16/06/1990
+ x12  | eliseo  | 14/05/1990
+ x13  | juan    | 07/04/1990
+ x15  | leon    | 27/11/1990
+(12 rows)
+
+postgres=> select codx,nomx from xogador where nomx='juan' or nomx='luis';
+ codx | nomx 
+------+------
+ x1   | luis
+ x2   | juan
+ x5   | juan
+ x6   | luis
+ x13  | juan
+(5 rows)
+
+postgres=> select codx,nomx,salario from xogador orden by nomx;
+ERROR:  syntax error at or near "by"
+LINE 1: select codx,nomx,salario from xogador orden by nomx;
+                                                    ^
+postgres=> select codx,nomx,salario from xogador order by nomx;
+ codx |   nomx   | salario 
+------+----------+---------
+ x4   | alberto  |    1000
+ x11  | antonio  |    2000
+ x9   | bent     |    1500
+ x7   | carlos   |        
+ x12  | eliseo   |    1350
+ x14  | federico |    1000
+ x13  | juan     |    2000
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x15  | leon     |        
+ x1   | luis     |    2000
+ x6   | luis     |     800
+ x10  | manuel   |        
+ x8   | pedro    |    3000
+ x3   | pedro    |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx desc;
+ codx |   nomx   | salario 
+------+----------+---------
+ x8   | pedro    |    3000
+ x3   | pedro    |    1000
+ x10  | manuel   |        
+ x1   | luis     |    2000
+ x6   | luis     |     800
+ x15  | leon     |        
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x13  | juan     |    2000
+ x14  | federico |    1000
+ x12  | eliseo   |    1350
+ x7   | carlos   |        
+ x9   | bent     |    1500
+ x11  | antonio  |    2000
+ x4   | alberto  |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx,salario;
+ codx |   nomx   | salario 
+------+----------+---------
+ x4   | alberto  |    1000
+ x11  | antonio  |    2000
+ x9   | bent     |    1500
+ x7   | carlos   |        
+ x12  | eliseo   |    1350
+ x14  | federico |    1000
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x13  | juan     |    2000
+ x15  | leon     |        
+ x6   | luis     |     800
+ x1   | luis     |    2000
+ x10  | manuel   |        
+ x3   | pedro    |    1000
+ x8   | pedro    |    3000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx,salario desc;
+ codx |   nomx   | salario 
+------+----------+---------
+ x4   | alberto  |    1000
+ x11  | antonio  |    2000
+ x9   | bent     |    1500
+ x7   | carlos   |        
+ x12  | eliseo   |    1350
+ x14  | federico |    1000
+ x13  | juan     |    2000
+ x2   | juan     |    1500
+ x5   | juan     |    1200
+ x15  | leon     |        
+ x1   | luis     |    2000
+ x6   | luis     |     800
+ x10  | manuel   |        
+ x8   | pedro    |    3000
+ x3   | pedro    |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx desc ,salario asc;
+ codx |   nomx   | salario 
+------+----------+---------
+ x3   | pedro    |    1000
+ x8   | pedro    |    3000
+ x10  | manuel   |        
+ x6   | luis     |     800
+ x1   | luis     |    2000
+ x15  | leon     |        
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x13  | juan     |    2000
+ x14  | federico |    1000
+ x12  | eliseo   |    1350
+ x7   | carlos   |        
+ x9   | bent     |    1500
+ x11  | antonio  |    2000
+ x4   | alberto  |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx desc ,salario asc,codx desc; codx |   nomx   | salario 
+------+----------+---------
+ x3   | pedro    |    1000
+ x8   | pedro    |    3000
+ x10  | manuel   |        
+ x6   | luis     |     800
+ x1   | luis     |    2000
+ x15  | leon     |        
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x13  | juan     |    2000
+ x14  | federico |    1000
+ x12  | eliseo   |    1350
+ x7   | carlos   |        
+ x9   | bent     |    1500
+ x11  | antonio  |    2000
+ x4   | alberto  |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx desc ,salario asc,codx asd;
+ERROR:  syntax error at or near "asd"
+LINE 1: ...lario from xogador order by nomx desc ,salario asc,codx asd;
+                                                                   ^
+postgres=> select codx,nomx,salario from xogador order by nomx desc ,salario asc,codx asc;
+ codx |   nomx   | salario 
+------+----------+---------
+ x3   | pedro    |    1000
+ x8   | pedro    |    3000
+ x10  | manuel   |        
+ x6   | luis     |     800
+ x1   | luis     |    2000
+ x15  | leon     |        
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x13  | juan     |    2000
+ x14  | federico |    1000
+ x12  | eliseo   |    1350
+ x7   | carlos   |        
+ x9   | bent     |    1500
+ x11  | antonio  |    2000
+ x4   | alberto  |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by nomx desc ,salario asc,order by codx;
+ERROR:  syntax error at or near "order"
+LINE 1: ...ario from xogador order by nomx desc ,salario asc,order by c...
+                                                             ^
+postgres=> select codx,nomx,salario from xogador order by nomx desc ,salario asc,codx asc;
+ codx |   nomx   | salario 
+------+----------+---------
+ x3   | pedro    |    1000
+ x8   | pedro    |    3000
+ x10  | manuel   |        
+ x6   | luis     |     800
+ x1   | luis     |    2000
+ x15  | leon     |        
+ x5   | juan     |    1200
+ x2   | juan     |    1500
+ x13  | juan     |    2000
+ x14  | federico |    1000
+ x12  | eliseo   |    1350
+ x7   | carlos   |        
+ x9   | bent     |    1500
+ x11  | antonio  |    2000
+ x4   | alberto  |    1000
+(15 rows)
+
+postgres=> select codx,nomx,salario from xogador order by salario,nomx;
+ codx |   nomx   | salario 
+------+----------+---------
+ x6   | luis     |     800
+ x4   | alberto  |    1000
+ x14  | federico |    1000
+ x3   | pedro    |    1000
+ x5   | juan     |    1200
+ x12  | eliseo   |    1350
+ x9   | bent     |    1500
+ x2   | juan     |    1500
+ x11  | antonio  |    2000
+ x13  | juan     |    2000
+ x1   | luis     |    2000
+ x8   | pedro    |    3000
+ x7   | carlos   |        
+ x15  | leon     |        
+ x10  | manuel   |        
+(15 rows)
+
+postgres=> select codx,salario,nomx,salario from xogador order by salario,nomx;
+ codx | salario |   nomx   | salario 
+------+---------+----------+---------
+ x6   |     800 | luis     |     800
+ x4   |    1000 | alberto  |    1000
+ x14  |    1000 | federico |    1000
+ x3   |    1000 | pedro    |    1000
+ x5   |    1200 | juan     |    1200
+ x12  |    1350 | eliseo   |    1350
+ x9   |    1500 | bent     |    1500
+ x2   |    1500 | juan     |    1500
+ x11  |    2000 | antonio  |    2000
+ x13  |    2000 | juan     |    2000
+ x1   |    2000 | luis     |    2000
+ x8   |    3000 | pedro    |    3000
+ x7   |         | carlos   |        
+ x15  |         | leon     |        
+ x10  |         | manuel   |        
+(15 rows)
+
+postgres=> select codx,salario,nomx from xogador order by salario,nomx;
+ codx | salario |   nomx   
+------+---------+----------
+ x6   |     800 | luis
+ x4   |    1000 | alberto
+ x14  |    1000 | federico
+ x3   |    1000 | pedro
+ x5   |    1200 | juan
+ x12  |    1350 | eliseo
+ x9   |    1500 | bent
+ x2   |    1500 | juan
+ x11  |    2000 | antonio
+ x13  |    2000 | juan
+ x1   |    2000 | luis
+ x8   |    3000 | pedro
+ x7   |         | carlos
+ x15  |         | leon
+ x10  |         | manuel
+(15 rows)
+
+postgres=> select * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x2   | juan     | e3     |    1500 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1000 |          | 12/11/1990
+ x4   | alberto  | e2     |    1000 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x7   | carlos   | e3     |         |          | 08/10/1990
+ x8   | pedro    | e4     |    3000 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1500 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2000 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1350 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2000 |        5 | 07/04/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+(15 rows)
+
+postgres=> select sum (salario) from xogador;
+  sum  
+-------
+ 18350
+(1 row)
+
+postgres=> select res (salario) from xogador;
+ERROR:  function res(integer) does not exist
+LINE 1: select res (salario) from xogador;
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+postgres=> select rest (salario) from xogador;
+ERROR:  function rest(integer) does not exist
+LINE 1: select rest (salario) from xogador;
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+postgres=> select sum (salario) from xogador;
+  sum  
+-------
+ 18350
+(1 row)
+
+postgres=> select count (salario) from xogador;
+ count 
+-------
+    12
+(1 row)
+
+postgres=> select count (codx) from xogador;
+ count 
+-------
+    15
+(1 row)
+
+postgres=> select count (nomx) from xogador;
+ count 
+-------
+    15
+(1 row)
+
+postgres=> select count (codx) from xogador;
+ count 
+-------
+    15
+(1 row)
+
+postgres=> select *  from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x2   | juan     | e3     |    1500 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1000 |          | 12/11/1990
+ x4   | alberto  | e2     |    1000 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x7   | carlos   | e3     |         |          | 08/10/1990
+ x8   | pedro    | e4     |    3000 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1500 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2000 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1350 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2000 |        5 | 07/04/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+(15 rows)
+
+postgres=> select codx,nomx,salario+comision from xogador;
+ codx |   nomx   | ?column? 
+------+----------+----------
+ x1   | luis     |         
+ x2   | juan     |     1500
+ x3   | pedro    |         
+ x4   | alberto  |     1005
+ x5   | juan     |     1210
+ x6   | luis     |      820
+ x7   | carlos   |         
+ x8   | pedro    |     3005
+ x9   | bent     |     1510
+ x10  | manuel   |         
+ x11  | antonio  |         
+ x12  | eliseo   |     1360
+ x13  | juan     |     2005
+ x14  | federico |     1010
+ x15  | leon     |         
+(15 rows)
+
+postgres=> select codx,nomx,salario+comision+salario from xogador;
+ codx |   nomx   | ?column? 
+------+----------+----------
+ x1   | luis     |         
+ x2   | juan     |     3000
+ x3   | pedro    |         
+ x4   | alberto  |     2005
+ x5   | juan     |     2410
+ x6   | luis     |     1620
+ x7   | carlos   |         
+ x8   | pedro    |     6005
+ x9   | bent     |     3010
+ x10  | manuel   |         
+ x11  | antonio  |         
+ x12  | eliseo   |     2710
+ x13  | juan     |     4005
+ x14  | federico |     2010
+ x15  | leon     |         
+(15 rows)
+
+postgres=> select codx,nomx,salario+comision from xogador;
+ codx |   nomx   | ?column? 
+------+----------+----------
+ x1   | luis     |         
+ x2   | juan     |     1500
+ x3   | pedro    |         
+ x4   | alberto  |     1005
+ x5   | juan     |     1210
+ x6   | luis     |      820
+ x7   | carlos   |         
+ x8   | pedro    |     3005
+ x9   | bent     |     1510
+ x10  | manuel   |         
+ x11  | antonio  |         
+ x12  | eliseo   |     1360
+ x13  | juan     |     2005
+ x14  | federico |     1010
+ x15  | leon     |         
+(15 rows)
+                                      ^
+postgres=> select codx,nomx,salario+coalesce(comision,0) from xogador;
+ codx |   nomx   | ?column? 
+------+----------+----------
+ x1   | luis     |     2000
+ x2   | juan     |     1500
+ x3   | pedro    |     1000
+ x4   | alberto  |     1005
+ x5   | juan     |     1210
+ x6   | luis     |      820
+ x7   | carlos   |         
+ x8   | pedro    |     3005
+ x9   | bent     |     1510
+ x10  | manuel   |         
+ x11  | antonio  |     2000
+ x12  | eliseo   |     1360
+ x13  | juan     |     2005
+ x14  | federico |     1010
+ x15  | leon     |         
+(15 rows)
+
+postgres=> 
+
+postgres=> select codx,nomx,salario+coalesce(comision,0) total  from xogador;
+ codx |   nomx   | total 
+------+----------+-------
+ x1   | luis     |  2000
+ x2   | juan     |  1500
+ x3   | pedro    |  1000
+ x4   | alberto  |  1005
+ x5   | juan     |  1210
+ x6   | luis     |   820
+ x7   | carlos   |      
+ x8   | pedro    |  3005
+ x9   | bent     |  1510
+ x10  | manuel   |      
+ x11  | antonio  |  2000
+ x12  | eliseo   |  1360
+ x13  | juan     |  2005
+ x14  | federico |  1010
+ x15  | leon     |      
+(15 rows)
+
+postgres=> select count (nomx) from xogador where nomx='luis';
+ count 
+-------
+     2
+(1 row)
+
+postgres=> select count (nomx) from xogador where nomx='juanes';
+ count 
+-------
+     0
+(1 row)
+
+postgres=> select count (codx) from xogador;
+ count 
+-------
+    15
+(1 row)
+
+postgres=> select count nomx from xogador;
+ERROR:  column "count" does not exist
+LINE 1: select count nomx from xogador;
+               ^
+postgres=> select nomx from xogador;
+   nomx   
+----------
+ luis
+ juan
+ pedro
+ alberto
+ juan
+ luis
+ carlos
+ pedro
+ bent
+ manuel
+ antonio
+ eliseo
+ juan
+ federico
+ leon
+(15 rows)
+
+postgres=> select distinc nomx from xogador;
+ERROR:  column "distinc" does not exist
+LINE 1: select distinc nomx from xogador;
+               ^
+postgres=> select distinct nomx from xogador;
+   nomx   
+----------
+ pedro
+ leon
+ bent
+ carlos
+ federico
+ alberto
+ antonio
+ juan
+ manuel
+ eliseo
+ luis
+(11 rows)
+
+postgres=> select sum (nomx) distinct nomx from xogador;
+ERROR:  syntax error at or near "distinct"
+LINE 1: select sum (nomx) distinct nomx from xogador;
+                          ^
+postgres=> select  count(distinct nomx) from xogador;
+ count 
+-------
+    11
+(1 row)
+
+postgres=> select  2*count(distinct nomx) from xogador;
+ ?column? 
+----------
+       22
+(1 row)
+
+postgres=> 
+
+                     ^
+postgres=> select *  from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x2   | juan     | e3     |    1500 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1000 |          | 12/11/1990
+ x4   | alberto  | e2     |    1000 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x7   | carlos   | e3     |         |          | 08/10/1990
+ x8   | pedro    | e4     |    3000 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1500 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2000 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1350 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2000 |        5 | 07/04/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+(15 rows)
+
+postgres=> select count(*) from xogador where codequ = 'e1'; 
+ count 
+-------
+     5
+(1 row)
+
+postgres=> select count(*) from xogador where codequ = 'e4'; 
+ count 
+-------
+     5
+(1 row)
+
+postgres=> select count(*) from xogador where codequ = 'e3'; 
+ count 
+-------
+     3
+(1 row)
+
+postgres=> select count(*) from xogador where codequ = 'e2'; 
+ count 
+-------
+     2
+(1 row)
+
+postgres=> select count(*) from xogador where codequ = 'e5'; 
+ count 
+-------
+     0
+(1 row)
+
+postgres=> select count(*) from xogador where codequ = 'e0'; 
+ count 
+-------
+     0
+(1 row)
+
+postgres=> select  * from equipo;
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |     
+ e1     | cuspedrinos |    5
+ e3     | croques     |    3
+ e4     | reboludos   |    5
+ e2     | gambusinos  |    2
+(5 rows)
+
+postgres=> select  * from equipo;
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |     
+ e1     | cuspedrinos |    5
+ e3     | croques     |    3
+ e4     | reboludos   |    5
+ e2     | gambusinos  |    2
+(5 rows)
+
+postgres=> select  * from xugador;
+ERROR:  relation "xugador" does not exist
+LINE 1: select  * from xugador;
+                       ^
+postgres=> select  * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x2   | juan     | e3     |    1500 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1000 |          | 12/11/1990
+ x4   | alberto  | e2     |    1000 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x7   | carlos   | e3     |         |          | 08/10/1990
+ x8   | pedro    | e4     |    3000 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1500 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2000 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1350 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2000 |        5 | 07/04/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+(15 rows)
+
+postgres=> select codequ,count(codequ) from xogador group by codequ;
+ codequ | count 
+--------+-------
+ e1     |     5
+ e3     |     3
+ e4     |     5
+ e2     |     2
+(4 rows)
+
+postgres=> select codequ,count(*) from xogador group by codequ;
+ codequ | count 
+--------+-------
+ e1     |     5
+ e3     |     3
+ e4     |     5
+ e2     |     2
+(4 rows)
+
+postgres=> 
+
+postgres=> select  * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x2   | juan     | e3     |    1500 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1000 |          | 12/11/1990
+ x4   | alberto  | e2     |    1000 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x7   | carlos   | e3     |         |          | 08/10/1990
+ x8   | pedro    | e4     |    3000 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1500 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2000 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1350 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2000 |        5 | 07/04/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+(15 rows)
+
+postgres=> select salario,count(*) from xogador group by salario;
+ salario | count 
+---------+-------
+         |     3
+    3000 |     1
+    2000 |     3
+     800 |     1
+    1000 |     3
+    1500 |     2
+    1350 |     1
+    1200 |     1
+(8 rows)
+
+postgres=> 
+
+                                           ^
+postgres=> select sum(salario) from xogador  group by codequ;
+ sum  
+------
+ 5000
+ 3500
+ 6850
+ 3000
+(4 rows)
+                        ^
+postgres=> select codequ, sum(salario+comision) from xogador  group by codequ;
+ codequ | sum  
+--------+------
+ e1     | 3040
+ e3     | 1500
+ e4     | 5875
+ e2     | 3010
+(4 rows)
+      ^
+postgres=> select codequ, sum(salario+coalesce(comision,0)) from xogador  group by codequ;
+ codequ | sum  
+--------+------
+ e1     | 5040
+ e3     | 3500
+ e4     | 6875
+ e2     | 3010
+(4 rows)
+                                                           ^
+postgres=> select codequ, sum(coalesce(salario,0)+coalesce(comision,0)) from xogador  group by codequ;
+ codequ | sum  
+--------+------
+ e1     | 5040
+ e3     | 3500
+ e4     | 6885
+ e2     | 3010
+(4 rows)
+
+                                     ^
+postgres=> select nomx, count (nomx) from xogador group by nomx;
+   nomx   | count 
+----------+-------
+ pedro    |     2
+ leon     |     1
+ bent     |     1
+ carlos   |     1
+ federico |     1
+ alberto  |     1
+ antonio  |     1
+ juan     |     3
+ manuel   |     1
+ eliseo   |     1
+ luis     |     2
+(11 rows)
+postgres=> select * from partido;
+ codpar |        nompar         |    data    | codest 
+--------+-----------------------+------------+--------
+ p1     | cuspedrinoscroques    | 02/03/2010 | es1
+ p2     | croquesreboludos      | 02/06/2010 | es1
+ p3     | gambusinoscuspedrinos | 12/06/2010 | es3
+ p4     | croquesreboludos      | 17/07/2010 | es4
+ p5     | gambusinoscuspedrinos | 07/07/2010 | es3
+ p6     | croquesreboludos      | 07/09/2010 | es1
+ p7     | cuspedrinoscroques    | 07/10/2010 | es4
+(7 rows)
+
+postgres=> select * from adestra;
+ codequ | ano  | codest 
+--------+------+--------
+ e1     | 2000 | es1
+ e1     | 2001 | es1
+ e2     | 2000 | es3
+ e3     | 2000 | es2
+ e2     | 2002 | es1
+ e2     | 2003 | es1
+ e3     | 2002 | es2
+(7 rows)
+      ^
+postgres=> select codest, count (*) from adestra group by codest;
+ codest | count 
+--------+-------
+ es1    |     4
+ es2    |     2
+ es3    |     1
+(3 rows)
+
+
+             ^
+postgres=> select ano, count (*) from adestra group by ano;
+ ano  | count 
+------+-------
+ 2003 |     1
+ 2000 |     3
+ 2002 |     2
+ 2001 |     1
+(4 rows)
+
+postgres=> select codequ, count (*) from adestra group by codequ;
+ codequ | count 
+--------+-------
+ e1     |     2
+ e3     |     2
+ e2     |     3
+(3 rows)
+
+                  ^
+postgres=> select codequ, sum(salario) from xogador group by codequ;
+ codequ | sum  
+--------+------
+ e1     | 5000
+ e3     | 3500
+ e4     | 6850
+ e2     | 3000
+(4 rows)
+
+postgres=> select codequ, sum(salario) from xogador group by codequ having sum(salario)>4000;
+ codequ | sum  
+--------+------
+ e1     | 5000
+ e4     | 6850
+(2 rows)
+
+stgres=> select codequ from xogador group by codequ having sum(salario)>4000;
+ codequ 
+--------
+ e1
+ e4
+(2 rows)
+
+postgres=> select nomc from colexiado;
+  nomc   
+---------
+ cfelipe
+ cjuan
+ cpedro
+ cluis
+ cana
+(5 rows)
+
+postgres=> select codest,count(*)from partido group by codest;
+ codest | count 
+--------+-------
+ es1    |     3
+ es4    |     2
+ es3    |     2
+(3 rows)
+ostgres=> select * from interven;
+ codc | codpar | funcion 
+------+--------+---------
+ c3   | p2     |       1
+ c2   | p2     |       2
+ c3   | p1     |       2
+ c1   | p1     |       3
+ c1   | p2     |       3
+ c5   | p3     |       2
+ c1   | p3     |       3
+(7 rows)
+                        ^
+postgres=> select codc, count(*)from interven group by codc;
+ codc | count 
+------+-------
+ c5   |     1
+ c2   |     1
+ c3   |     2
+ c1   |     3
+(4 rows)
+
+
+postgres=> select funcion, count(*)from interven group by funcion;
+ funcion | count 
+---------+-------
+       3 |     3
+       2 |     3
+       1 |     1
+(3 rows)
+
+
+postgres=> delete from interven where codc='c2'and codpar ='p3';
+DELETE 1
+postgres=> select codpar, count(*)from interven group by codpar;
+ codpar | count 
+--------+-------
+ p3     |     2
+ p2     |     3
+ p1     |     2
+(3 rows)
+
+postgres=> select * from interven;
+ codc | codpar | funcion 
+------+--------+---------
+ c3   | p2     |       1
+ c2   | p2     |       2
+ c3   | p1     |       2
+ c1   | p1     |       3
+ c1   | p2     |       3
+ c5   | p3     |       2
+ c1   | p3     |       3
+(7 rows)
+
+postgres=> select codpar, count(*)from interven group by codpar;
+ codpar | count 
+--------+-------
+ p3     |     2
+ p2     |     3
+ p1     |     2
+(3 rows)
+modificar un campo
+postgres=> select * from xogador order by codx;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 1990-01-03
+ x10  | manuel   | e4     |         |       10 | 1990-12-25
+ x11  | antonio  | e3     |    2010 |          | 1990-06-16
+ x12  | eliseo   | e4     |    1360 |       10 | 1990-05-14
+ x13  | juan     | e2     |    2010 |        5 | 1990-04-07
+ x14  | federico | e1     |    1000 |       10 | 1990-01-05
+ x15  | leon     | e1     |         |          | 1990-11-27
+ x2   | juan     | e3     |    1510 |        0 | 1991-04-13
+ x3   | pedro    | e4     |    1010 |          | 1990-11-12
+ x4   | alberto  | e2     |    1010 |        5 | 1990-07-01
+ x5   | juan     | e1     |    1200 |       10 | 1990-08-23
+ x6   | luis     | e1     |     800 |       20 | 1990-09-12
+ x7   | carlos   | e3     |    3010 |          | 1990-10-08
+ x8   | pedro    | e4     |    3010 |        5 | 1990-06-07
+ x9   | bent     | e4     |    1510 |       10 | 1990-04-23
+(15 rows)
+
+postgres=> select * from xogador order by comision desc;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x11  | antonio  | e3     |    2010 |          | 1990-06-16
+ x1   | luis     | e1     |    2000 |          | 1990-01-03
+ x7   | carlos   | e3     |    3010 |          | 1990-10-08
+ x3   | pedro    | e4     |    1010 |          | 1990-11-12
+ x15  | leon     | e1     |         |          | 1990-11-27
+ x6   | luis     | e1     |     800 |       20 | 1990-09-12
+ x12  | eliseo   | e4     |    1360 |       10 | 1990-05-14
+ x9   | bent     | e4     |    1510 |       10 | 1990-04-23
+ x10  | manuel   | e4     |         |       10 | 1990-12-25
+ x5   | juan     | e1     |    1200 |       10 | 1990-08-23
+ x14  | federico | e1     |    1000 |       10 | 1990-01-05
+ x4   | alberto  | e2     |    1010 |        5 | 1990-07-01
+ x8   | pedro    | e4     |    3010 |        5 | 1990-06-07
+ x13  | juan     | e2     |    2010 |        5 | 1990-04-07
+ x2   | juan     | e3     |    1510 |        0 | 1991-04-13
+(15 rows)
+
+
+postgres=> update xogador set salario=3000 where codx='x7';
+UPDATE 1
+postgres=> select * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x2   | juan     | e3     |    1500 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1000 |          | 12/11/1990
+ x4   | alberto  | e2     |    1000 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x8   | pedro    | e4     |    3000 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1500 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2000 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1350 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2000 |        5 | 07/04/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+ x7   | carlos   | e3     |    3000 |          | 08/10/1990
+(15 rows)
+
+postgres=> update xogador set salario=salario+10;
+UPDATE 15
+postgres=> select * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2010 |          | 03/01/1990
+ x2   | juan     | e3     |    1510 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1010 |          | 12/11/1990
+ x4   | alberto  | e2     |    1010 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1210 |       10 | 23/08/1990
+ x6   | luis     | e1     |     810 |       20 | 12/09/1990
+ x8   | pedro    | e4     |    3010 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1510 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2010 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1360 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2010 |        5 | 07/04/1990
+ x14  | federico | e1     |    1010 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+ x7   | carlos   | e3     |    3010 |          | 08/10/1990
+(15 rows)
+
+postgres=> update xogador set salario=salario-10 where codequ='el';
+UPDATE 0
+postgres=> select * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x1   | luis     | e1     |    2010 |          | 03/01/1990
+ x2   | juan     | e3     |    1510 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1010 |          | 12/11/1990
+ x4   | alberto  | e2     |    1010 |        5 | 01/07/1990
+ x5   | juan     | e1     |    1210 |       10 | 23/08/1990
+ x6   | luis     | e1     |     810 |       20 | 12/09/1990
+ x8   | pedro    | e4     |    3010 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1510 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2010 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1360 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2010 |        5 | 07/04/1990
+ x14  | federico | e1     |    1010 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+ x7   | carlos   | e3     |    3010 |          | 08/10/1990
+(15 rows)
+
+postgres=> update xogador set salario=salario-10 where codequ='e1';
+UPDATE 5
+postgres=> select * from xogador;
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x2   | juan     | e3     |    1510 |        0 | 13/04/1991
+ x3   | pedro    | e4     |    1010 |          | 12/11/1990
+ x4   | alberto  | e2     |    1010 |        5 | 01/07/1990
+ x8   | pedro    | e4     |    3010 |        5 | 07/06/1990
+ x9   | bent     | e4     |    1510 |       10 | 23/04/1990
+ x10  | manuel   | e4     |         |       10 | 25/12/1990
+ x11  | antonio  | e3     |    2010 |          | 16/06/1990
+ x12  | eliseo   | e4     |    1360 |       10 | 14/05/1990
+ x13  | juan     | e2     |    2010 |        5 | 07/04/1990
+ x7   | carlos   | e3     |    3010 |          | 08/10/1990
+ x1   | luis     | e1     |    2000 |          | 03/01/1990
+ x5   | juan     | e1     |    1200 |       10 | 23/08/1990
+ x6   | luis     | e1     |     800 |       20 | 12/09/1990
+ x14  | federico | e1     |    1000 |       10 | 05/01/1990
+ x15  | leon     | e1     |         |          | 27/11/1990
+(15 rows)
+postgres=> select sum (salario) from xogador;
+  sum  
+-------
+ 21440
+(1 row)
+
+postgres=> select sum(salario) from xogador;
+  sum  
+-------
+ 21440
+(1 row)
+
+postgres=> select count(salario) from xogador;
+ count 
+-------
+    13
+(1 row)
+
+postgres=> select count(codx) from xogador;
+ count 
+-------
+    15
+(1 row)
+
+postgres=> select sum(salario) from xogador;
+  sum  
+-------
+ 21440
+(1 row)
+postgres=> select sum(salario)/count(coalesce(salario,0)) from xogador where codequ='e1';
+ ?column? 
+----------
+     1000
+(1 row)
+
+postgres=> select codx,nomx from xogador where codequ='e1';
+ codx |   nomx   
+------+----------
+ x1   | luis
+ x5   | juan
+ x6   | luis
+ x14  | federico
+ x15  | leon
+(5 rows)
+
+postgres=> select * from equipo;
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |     
+ e1     | cuspedrinos |    5
+ e3     | croques     |    3
+ e4     | reboludos   |    5
+ e2     | gambusinos  |    2
+(5 rows)
+
+postgres=> select codequ from equipo where nomequ='cuspedrinos';
+ codequ 
+--------
+ e1
+(1 row)
+
+postgres=> select codx,nomx from xogador where codequ in (select codequ from equipo where nomequ='cuspedrinos');
+ codx |   nomx   
+------+----------
+ x1   | luis
+ x5   | juan
+ x6   | luis
+ x14  | federico
+ x15  | leon
+(5 rows)
+
+postgres=> select codx,nomx from xogador where codequ in (select codequ from equipo where nomequ='gambusinos');
+ codx |  nomx   
+------+---------
+ x4   | alberto
+ x13  | juan
+(2 rows)
+
+postgres=> select from estadio;
+--
+(4 rows)
+
+postgres=> select * from estadio;
+ codest | nomest  
+--------+---------
+ es1    | playero
+ es2    | montana
+ es3    | plano
+ es4    | aereo
+(4 rows)
+
+postgres=> select * from partidos;
+ERROR:  relation "partidos" does not exist
+LINE 1: select * from partidos;
+                      ^
+postgres=> select * from partido;
+ codpar |        nompar         |    data    | codest 
+--------+-----------------------+------------+--------
+ p1     | cuspedrinoscroques    | 2010-03-02 | es1
+ p2     | croquesreboludos      | 2010-06-02 | es1
+ p3     | gambusinoscuspedrinos | 2010-06-12 | es3
+ p4     | croquesreboludos      | 2010-07-17 | es4
+ p5     | gambusinoscuspedrinos | 2010-07-07 | es3
+ p6     | croquesreboludos      | 2010-09-07 | es1
+ p7     | cuspedrinoscroques    | 2010-10-07 | es4
+(7 rows)
+postgres=> select codpar,nompar from partido where codest in (select codest from estadio where nomest='playero');
+ codpar |       nompar       
+--------+--------------------
+ p1     | cuspedrinoscroques
+ p2     | croquesreboludos
+ p6     | croquesreboludos
+(3 rows)
+
+postgres=> select avg(salario) from xogador where codequ='e1';
+          avg          
+-----------------------
+ 1250.0000000000000000
+(1 row)
+
+postgres=> select sum(salario) from xogador where codequ='e1';
+ sum  
+------
+ 5000
+(1 row)
+
+postgres=> select count(salario) from xogador where codequ='e1';
+ count 
+-------
+     4
+(1 row)
+
+postgres=> select * from xogador; 
+ codx |   nomx   | codequ | salario | comision |   datan    
+------+----------+--------+---------+----------+------------
+ x2   | juan     | e3     |    1510 |        0 | 1991-04-13
+ x3   | pedro    | e4     |    1010 |          | 1990-11-12
+ x4   | alberto  | e2     |    1010 |        5 | 1990-07-01
+ x8   | pedro    | e4     |    3010 |        5 | 1990-06-07
+ x9   | bent     | e4     |    1510 |       10 | 1990-04-23
+ x10  | manuel   | e4     |         |       10 | 1990-12-25
+ x11  | antonio  | e3     |    2010 |          | 1990-06-16
+ x12  | eliseo   | e4     |    1360 |       10 | 1990-05-14
+ x13  | juan     | e2     |    2010 |        5 | 1990-04-07
+ x7   | carlos   | e3     |    3010 |          | 1990-10-08
+ x1   | luis     | e1     |    2000 |          | 1990-01-03
+ x5   | juan     | e1     |    1200 |       10 | 1990-08-23
+ x6   | luis     | e1     |     800 |       20 | 1990-09-12
+ x14  | federico | e1     |    1000 |       10 | 1990-01-05
+ x15  | leon     | e1     |         |          | 1990-11-27
+(15 rows)
+
+postgres=> select sum(salario)/count(codx) from xogador where codequ='e1';
+ ?column? 
+----------
+     1000
+(1 row)
+
+postgres=> select sum(salario)/count(salario) from xogador where codequ='e1';
+ ?column? 
+----------
+     1250
+(1 row)
+postgres=> select * from partido;
+ codpar |        nompar         |    data    | codest 
+--------+-----------------------+------------+--------
+ p1     | cuspedrinoscroques    | 2010-03-02 | es1
+ p2     | croquesreboludos      | 2010-06-02 | es1
+ p3     | gambusinoscuspedrinos | 2010-06-12 | es3
+ p4     | croquesreboludos      | 2010-07-17 | es4
+ p5     | gambusinoscuspedrinos | 2010-07-07 | es3
+ p6     | croquesreboludos      | 2010-09-07 | es1
+ p7     | cuspedrinoscroques    | 2010-10-07 | es4
+(7 rows)
+
+postgres=> select codpar,nompar from partido where codest in (select codest from estadio where nomest='playero');
+ codpar |       nompar       
+--------+--------------------
+ p1     | cuspedrinoscroques
+ p2     | croquesreboludos
+ p6     | croquesreboludos
+(3 rows)
+
+postgres=> select * from interven;
+ codc | codpar | funcion 
+------+--------+---------
+ c3   | p2     |       1
+ c2   | p2     |       2
+ c3   | p1     |       2
+ c1   | p1     |       3
+ c1   | p2     |       3
+ c5   | p3     |       2
+ c1   | p3     |       3
+(7 rows)
+
+postgres=> select nomc from colexiado  where codc in (select codc from interven where codpar in (select codpar from partido where nompar ='croquesreboludos'));
+  nomc   
+---------
+ cfelipe
+ cpedro
+ cjuan
+(3 rows)
+postgres=> select codc, nomc from colexiado  where codc in (select codc from interven where codpar in (select codpar from partido where nompar ='croquesreboludos'));
+ codc |  nomc   
+------+---------
+ c1   | cfelipe
+ c3   | cpedro
+ c2   | cjuan
+(3 rows)
+
+                      ^
+postgres=> select xogador.*,equipo.* from xogador, equipo where codequ=codeque;
+ERROR:  column reference "codequ" is ambiguous
+LINE 1: ...ect xogador.*,equipo.* from xogador, equipo where codequ=cod...
+                                                             ^
+postgres=> select xogador.*,equipo.* from xogador, equipo where xogador.codequ=equipo.codequ;
+ codx |   nomx   | codequ | salario | comision |   datan    | codequ |   nomequ    | numx 
+------+----------+--------+---------+----------+------------+--------+-------------+------
+ x2   | juan     | e3     |    1510 |        0 | 1991-04-13 | e3     | croques     |    3
+ x3   | pedro    | e4     |    1010 |          | 1990-11-12 | e4     | reboludos   |    5
+ x4   | alberto  | e2     |    1010 |        5 | 1990-07-01 | e2     | gambusinos  |    2
+ x8   | pedro    | e4     |    3010 |        5 | 1990-06-07 | e4     | reboludos   |    5
+ x9   | bent     | e4     |    1510 |       10 | 1990-04-23 | e4     | reboludos   |    5
+ x10  | manuel   | e4     |         |       10 | 1990-12-25 | e4     | reboludos   |    5
+ x11  | antonio  | e3     |    2010 |          | 1990-06-16 | e3     | croques     |    3
+ x12  | eliseo   | e4     |    1360 |       10 | 1990-05-14 | e4     | reboludos   |    5
+ x13  | juan     | e2     |    2010 |        5 | 1990-04-07 | e2     | gambusinos  |    2
+ x7   | carlos   | e3     |    3010 |          | 1990-10-08 | e3     | croques     |    3
+ x1   | luis     | e1     |    2000 |          | 1990-01-03 | e1     | cuspedrinos |    5
+ x5   | juan     | e1     |    1200 |       10 | 1990-08-23 | e1     | cuspedrinos |    5
+ x6   | luis     | e1     |     800 |       20 | 1990-09-12 | e1     | cuspedrinos |    5
+ x14  | federico | e1     |    1000 |       10 | 1990-01-05 | e1     | cuspedrinos |    5
+ x15  | leon     | e1     |         |          | 1990-11-27 | e1     | cuspedrinos |    5
+(15 rows)
+              ^
+postgres=> select codx,nomx,nomequ from xogador, equipo where xogador.codequ=equipo.codequ; codx |   nomx   |   nomequ    
+------+----------+-------------
+ x2   | juan     | croques
+ x3   | pedro    | reboludos
+ x4   | alberto  | gambusinos
+ x8   | pedro    | reboludos
+ x9   | bent     | reboludos
+ x10  | manuel   | reboludos
+ x11  | antonio  | croques
+ x12  | eliseo   | reboludos
+ x13  | juan     | gambusinos
+ x7   | carlos   | croques
+ x1   | luis     | cuspedrinos
+ x5   | juan     | cuspedrinos
+ x6   | luis     | cuspedrinos
+ x14  | federico | cuspedrinos
+ x15  | leon     | cuspedrinos
+(15 rows)
+

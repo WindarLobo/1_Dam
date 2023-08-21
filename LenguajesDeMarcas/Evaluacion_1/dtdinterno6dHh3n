@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text\css" href="datos.css"?>
+<!DOCTYPE datos [
+<!ELEMENT datos (nombre,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ENTITY n "Windar lobo">
+<!ENTITY d "Calle CRREGl 36">
+]>
+<datos>
+<nombre>&n;</nombre>
+<direccion>&d;</direccion>
+</datos>

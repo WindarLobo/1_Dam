@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  paises [
+<!ELEMENT paises (pais+,monarquia,superficie ,antiguamoneda,monedaactual,fronteraconespaña?,moneda,esunarepublica)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT monarquia (#PCDATA) >
+<!ELEMENT superficie (#PCDATA)>
+<!ELEMENT antiguamoneda (#PCDATA) >
+<!ELEMENT monedaactual (#PCDATA) >
+<!ELEMENT fronteraconespaña EMPTY>
+<!ELEMENT moneda (#PCDATA) >
+<!ELEMENT esunarepublica (#PCDATA) >
+]>
+  <paises>
+  <pais>España</pais>
+    <monarquia>si</monarquia>
+    <superficie>  504.645km²</superficie>
+    <antiguamoneda>peceta</antiguamoneda>
+    <monedaactual>euro</monedaactual>
+  <fronteraconespaña> 
+  <pais>Francia</pais>
+    <esunarepublica>Si</esunarepublica>
+    <moneda> moneda es el euro y era el franco francés</moneda>
+    <superficie>   675.417 km²</superficie>
+    <pais>Suiza</pais>
+     <esunarepublica>Si</esunarepublica>
+      <moneda>  moneda es el franco suizo. </moneda>
+    <superficie>  41.290 km²</superficie>
+   </fronteraconespaña>
+  </paises>
+  

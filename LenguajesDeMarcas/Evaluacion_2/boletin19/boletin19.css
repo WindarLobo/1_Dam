@@ -1,0 +1,179 @@
+body {
+	background-color:  #75AEF2 ;
+	 margin: auto;
+    width: 50%;
+}
+h1 {
+	 height: 30px;
+	 font-family: serif;
+	font-weight: normal;
+	text-align:  justify;
+	color: #1B3678;
+	font-size:  50px;
+
+}
+
+#nombre1 {
+	padding-left: 5px;
+	 font-family: arial;
+	font-weight: normal;
+	color: white;
+	font-size:  20px;
+	background-color: #BB0707;
+	width: 75%;
+	border-radius: 0px 15px 0px 0px;
+	border-left: 3px solid  #BB0707;
+	border-right: 3px solid #BB0707;
+
+
+}
+
+#fecha1 {
+	padding-left: 5px;
+	 font-family: arial;
+	font-weight: bold;
+	font-size:  15px;
+	background-color: #E1353F;
+	width: 75%;
+	border-radius: 0px 0px 0px 0px;
+	border-left: 3px solid  #BB0707;
+	border-right: 3px solid #BB0707;
+}
+#biografia1{
+	
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: normal;
+	color: black;
+	font-size:  15px;
+	background-color: #F0989E;
+	width:75%;
+	border-radius: 0px 0px 15px 15px ;
+	border-bottom: 3px solid #BB0707;
+	border-left: 3px solid  #BB0707;
+	border-right: 3px solid #BB0707;
+
+}
+
+#nombre2 {
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: normal;
+	color: white;
+	font-size:  20px;
+	background-color: #E246E9;
+	width: 75%;
+	border-radius: 10px 0px 0px 0px;
+	border-left: 3px solid  #E246E9;
+	border-right: 3px solid #E246E9;
+
+}
+
+#fecha2{
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	font-size:  15px;
+	background-color: #F4A2F8;
+	width: 75%;
+	border-radius: 0px 0px 0px 0px;
+	border-left: 3px solid  #E246E9;
+	border-right: 3px solid #E246E9;
+
+
+}
+#biografia2{
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: normal;
+	color: black;
+	font-size:  15px;
+	background-color: #FBD5FD;
+	width: 75%;
+	border-radius: 0px 0px 10px 0px;
+	border-bottom: 3px solid #E246E9;
+	border-left: 3px solid  #E246E9;
+	border-right: 3px solid #E246E9;
+
+
+}
+
+#nombre3 {
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: normal;
+	color: white;
+	font-size:  20px;
+	background-color: #066CE5;
+	width:75%;
+	border-radius: 10px 10px 0px 0px   ;
+	border-left: 3px solid  #066CE5;
+	border-right: 3px solid #066CE5;
+}
+
+#fecha3{
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	font-size:  15px;
+	background-color: #4486D5 ;
+	width: 75%;
+	border-radius: 0px 0px 0px 0px   ;
+	border-left: 3px solid  #066CE5;
+	border-right: 3px solid #066CE5;
+}
+#biografia3{
+	padding-left: 5px;
+	font-weight: normal;
+	color: black;
+	font-size:  15px;
+	background-color: #5DD1F3;
+	width: 75%;
+	border-radius: 0px 0px 10px 10px   ;
+	border-bottom: 3px solid #066CE5;
+	border-left: 3px solid  #066CE5;
+	border-right: 3px solid #066CE5;
+
+}
+
+#nombre4 {
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: normal;
+	color: white;
+	font-size:  20px;
+	background-color: #959D17;
+	width: 75%;
+	border-radius: 10px 0px 0px 0px ;
+	border-left: 3px solid  #959D17;
+	border-right: 3px solid  #959D17;
+}
+
+#fecha4{
+	padding-left: 5px;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	font-size:  15px;
+	background-color: #D4E10A  ;
+	width: 75%;
+	border-radius: 0px 0px 0px 0px ;
+	border-left: 3px solid  #959D17;
+	border-right: 3px solid  #959D17;
+}
+#biografia4{
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-weight: normal;
+	color: black;
+	font-size:  15px;
+	background-color: #F3F8AC;
+	width: 75%;
+	border-radius: 0px 0px 10px 0px   ;
+	border-bottom: 3px solid #959D17;
+	border-left: 3px solid  #959D17;
+	border-right: 3px solid  #959D17;
+
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- EJERCICIO 1
+<notas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/examen2.xsd"> 
+<nota>
+<titulo>Cita</titulo>
+<para num="123">José</para>
+<de>Ana</de>
+</nota>
+</notas>-->
+
+<!-- EJERCICIO 2
+<supermercado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/examen2.xsd">
+<articulo cantidad="300">
+ <descripcion>yogurt</descripcion>
+<marca tipo="nacional">Danone</marca>
+ <medida unidad="Sistema Internacional">1 Pack 4</medida>
+ <seccion>lacteos</seccion>
+</articulo>
+<articulo>
+ <descripcion>Queso fresco</descripcion>
+<marca tipo="nacional">Burgo de Arias</marca>
+ <medida>250 gr</medida>
+ <seccion>Lacteos</seccion>
+<oferta>Lote descuento</oferta>
+ <perecedero>
+ <fabricacion>Febrero de 2023</fabricacion>
+ </perecedero>
+ </articulo>
+</supermercado>-->
+
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/examen2.xsd">
+<titulo>El ojo del golem</titulo>
+<seccion>Novelas</seccion>
+<subSeccion>Fantasticas</subSeccion>
+<contenido>
+ <capitulo materia="XHTML" num="1">
+</capitulo>
+ <capitulo materia="XML" num="3">
+<tema>Divertirse</tema>
+<tema>Correr</tema>
+ </capitulo>
+</contenido>
+<copyright>2010-2020</copyright>
+</libro>

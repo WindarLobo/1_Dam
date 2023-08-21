@@ -1,0 +1,67 @@
+/*nombreCentro{
+font-size: 2em;
+text-decoration: underline;
+text-transform: uppercase;
+	
+}
+nombre,grado,decretoTitulo{
+	display: list-item; 
+	margin-left: 4em;
+	list-style-type:disc;
+
+
+
+}*/
+/*nombreCentro{
+font-size: 1.5em;
+display: block;
+	}
+grado,decretoTitulo{
+	display: list-item; 
+	margin-left: 4em;
+	list-style-type:disc;
+}*/
+/*
+nombreCentro{
+font-size: 3em;
+display: block;
+	}
+	nombre{
+		display: list-item; list-style:none;
+	margin-left: 3em;
+	}
+	nombre:before{
+		content: counter(contador,decimal)".";counter-increment: contador;
+	}
+
+grado,decretoTitulo{
+	display: list-item; 
+	margin-left: 4em;
+	list-style-type:square;}
+	ciclos{
+		counter-reset: contador;
+	}
+	centro{
+		margin-left: 35%;margin-top: 10%;
+	}*/
+
+	centro{
+		display: table;
+		border: 2px solid blue;
+		margin: auto;background-color:#f4c63c;}
+
+		ciclo{
+			display: table-row;
+		}
+		nombre,grado,decretoTitulo{
+			display:table-cell;
+			border: 2px solid blue; 
+			width:15em;
+		}
+		nombreCentro{
+			display: table-caption;
+		margin: auto;
+	font-size: 3em;
+
+		}
+		

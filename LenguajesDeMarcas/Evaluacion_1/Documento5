@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  contabilidad [
+<!ELEMENT contabilidad  (notas+)>
+ <!ELEMENT notas (ingreso?,gasto?,fecha,cantidad,concepto)>
+<!ELEMENT ingreso EMPTY >
+<!ELEMENT gasto EMPTY >
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT concepto (#PCDATA)>
+]>
+       <contabilidad>
+         <notas>
+           <ingreso/>
+           <fecha>14 de octubre de 2013</fecha>
+           <cantidad>1800 €</cantidad>
+           <concepto>Ventas</concepto>
+        </notas>
+         <notas>
+           <gasto/>
+           <fecha>11 de febrero de 2013</fecha>
+           <cantidad>44,25 €</cantidad>
+           <concepto>Recibo agua</concepto>
+          </notas>
+       <notas>
+           <ingreso/>
+           <fecha>12 de octubre de 2013</fecha>
+           <cantidad>18000 €</cantidad>
+           <concepto>Premio lotería</concepto>
+        </notas>
+       </contabilidad>

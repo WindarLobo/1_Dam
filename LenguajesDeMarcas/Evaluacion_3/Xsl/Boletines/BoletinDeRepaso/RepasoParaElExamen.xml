@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/home/dam1/Documentos/lenguajes%20de%20marcas/Evaluacion_3/Xsl/Boletines/BoletinDeRepaso/BoletinRepaso.xsl"?><lenguajes>
+<lenguaje>
+<nombre>C</nombre>
+<creador>Dennis Ritchie</creador>
+<fecha>1973</fecha>
+<compilado />
+</lenguaje>
+<lenguaje>
+<nombre>Python</nombre>
+<creador>Guido van Rossum</creador>
+<fecha>1991</fecha>
+<interpretado />
+</lenguaje>
+<lenguaje>
+<nombre>PHP</nombre>
+<creador>Rasmus Lerdorf</creador>
+<fecha>1995</fecha>
+<interpretado />
+</lenguaje>
+<lenguaje>
+<nombre>XSLT</nombre>
+<creador>James Clark</creador>
+<fecha>1998</fecha>
+<interpretado />
+</lenguaje>
+</lenguajes>

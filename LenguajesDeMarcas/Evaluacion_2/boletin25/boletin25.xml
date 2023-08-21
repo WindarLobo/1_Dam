@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 1-
+<zapatos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/boletin25.xsd">
+  <zapato>Mocasín</zapato>
+  <color>negro</color>
+</zapatos>-->
+
+<!--Ejercicio 2-
+<usuario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/boletin25.xsd">
+  <nombreUsuario>Martina García</nombreUsuario>
+  <claveUsuario>win18lg</claveUsuario>
+</usuario>-->
+
+<!--Ejercicio 3-
+
+<usuario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/boletin25.xsd">
+  <nombreUsuario>Martina García</nombreUsuario>
+  <claveUsuario>12windar1</claveUsuario>
+</usuario>-->
+
+<!--Ejercicio 4-
+
+<fichero xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/boletin25.xsd">
+  <nombreFichero>win12Ada</nombreFichero>
+  <extension>xml</extension>
+</fichero>-->
+
+<!--Ejercicio 5-
+
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/boletin25.xsd"> 
+<alumno dni="5656454">
+<nombre>Juan Garcia</nombre>
+<direccion>
+<calle>Avenida de la Fuente</calle>
+<numero>6</numero>
+<ciudad>pontevedra</ciudad>
+<provincia>tomiño</provincia>
+</direccion>
+<telefono>924555555</telefono></alumno>
+<alumno dni="y3778564a">
+<nombre>Jose Sanchez</nombre>
+<direccion>
+<calle>Calle Ancha</calle>
+<numero>3</numero>
+<ciudad>pontevedra</ciudad>
+<provincia>.vigo</provincia>
+</direccion>
+<telefono>924550000</telefono>
+</alumno>
+</alumnos>-->
+
+      
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/boletin25.xsd"> 
+<libro >
+<titulo>Los hombres que no amaban a las  mujeres</titulo>
+<autor>Stieg Larsson</autor>
+<fecha>2008</fecha>
+<isbn>978-84-233</isbn>
+<editor>Destino</editor>
+<categoria>ficcion</categoria>
+<stock>true</stock>
+</libro>
+<libro revisor="Luis Rodrigo">
+<titulo>ava a través de los tiempos</titulo>
+<autor>Jesús Bobadilla</autor>
+<autor>Adela Sancho</autor>
+<fecha>2003</fecha>
+<isbn>978-84-567</isbn>
+<editor>Ra-Ma</editor>
+<categoria>ficcion</categoria>
+<stock>false</stock>
+</libro>
+</libros>   

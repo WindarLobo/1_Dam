@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- EJERCICIO 1
+  <xs:element name="notas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nota"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nota">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element ref="para"/>
+        <xs:element name="de" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="para">
+    <xs:complexType mixed="true">
+      <xs:attribute name="num" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>-->
+
+ <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="seccion">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:maxLength value="20"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="subSeccion">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Fantasticas"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="contenido">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="capitulo" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tema" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                  <xs:attribute name="materia" type="xs:string"/>
+                  <xs:attribute name="num" type="xs:integer"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="copyright" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+<!-- EJERCICIO 2
+
+ <xs:element name="supermercado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="articulo" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descripcion" type="xs:string"/>
+              <xs:element name="marca">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="tipo" type="xs:string" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="medida">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="unidad" type="xs:string" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="seccion" type="xs:string"/>
+              <xs:element name="oferta" type="xs:string" minOccurs="0"/>
+              <xs:element name="perecedero" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fabricacion" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="cantidad" type="xs:integer" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>-->
+</xs:schema>

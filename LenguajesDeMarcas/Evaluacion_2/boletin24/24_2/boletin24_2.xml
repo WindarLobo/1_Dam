@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libro precio="30" > 
+        <titulo> Lenguajes de Marcas</titulo>
+        <autor>Javier S. Zurdo</autor>
+        <autor>Pablo Toharia</autor>
+        <editorial>Ra-Ma</editorial>
+</libro>

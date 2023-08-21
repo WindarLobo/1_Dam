@@ -1,0 +1,282 @@
+1) amosar nomes de personaxes que teñan unha letra 'a'  e unha letra 'n' no seu nome
+
+karnas
+lian
+tagana
+
+select nomper from personaxes
+where  nomper like '%a%' and nomper like '%n%'
+
+2) amosar nomes de actores  que teñan unha letra 'y'  ou unha letra 'j' no seu nome
+nimoy
+kelley
+yuan
+julia
+gray
+brandy
+
+select noma from actores
+where  noma like '%y%' or noma like '%j%'  
+
+3)de cantos actores non se coñece a data de nacemento?
+Resultado:  5
+select count(*) from actores
+where datan is null
+
+4)de cantos interpretes de series  non se coñece as horas que levan traballadas?
+Resultado: 8
+
+select count(*) from interpretesser where horas is null
+
+5) cantas horas de rodaxe empregou o actor de codigo 'a1' en todas as series nas que interviu.
+Resultado: 800
+select sum(horas) from  interpretesser where coda ='a1' 
+
+6)canto cobran de media por hora os actores de nacionalidade 'espanha' ( nota o que cobra por hora un actor e o que se denomina cachehora)
+
+resultado: 233.333333
+
+select avg (cachehora)
+from   actores  where nacionalidade ='espanha'
+
+7)amosar os nomes  dos naves que se usan para visitar planetas na serie de codigo 's1'  
+enterprise
+voyager
+
+select distinct nomen  from naves
+inner join visitas on naves.codn=visitas.codn
+where visitas.cods='s1'
+
+8)amosar os nomes dos planetas da galaxia  'via_lactea'
+
+terra
+mart
+xupiter
+saturno
+neptuno
+volcano
+
+ select nompla  from planetas where galaxia='via_lactea'
+
+9)amosar os nomes dos personaxes que teñan de graduación 'oficial'
+
+chekov
+ear
+prak
+tomalak
+ronin
+sissy
+kira
+
+select nomper  from personaxes where graduacion='oficial'
+
+10)) amosar os nomes dos personaxes que estando na base de datos non están relacionados todavía con ninguna película
+
+ 
+sovak
+kor
+ronin
+devour
+letek
+ardor
+solok
+lag
+kurn
+comic
+karnas
+lian
+lures
+kamala
+maccoy
+tagana
+gilora
+kraal
+grilka
+morn
+garak
+nog
+rom
+tiron
+brunt
+scott
+ducat
+boogie
+gull
+quark
+dax
+sissy
+kira
+
+select  nomper   from personaxes  
+left join interpretespel 
+on personaxes.codper=interpretespel.codper 
+where interpretespel .codper is null 
+order by personaxes.codper
+
+11)amosar nomes de planetas que non foron visitados:
+lobar
+gork
+neptuno
+vulcano
+
+select  nompla  from planetas 
+left join visitas
+on planetas.codpla=visitas.codpla 
+where visitas.codpla is null 
+order by planetas.codpla
+
+12)amosar os nomes dos personaxes que son soldados e non dependen de ningun outro personaxe.
+vekor
+lag
+kamala
+garak
+
+select nomper from personaxes 
+where graduacion='soldado' and codper2 is null
+
+13) amosar os nomes dos actores que cobren 200 de cachehora dos que non se sepa a data de nacemento:
+
+koenig
+ana
+
+select noma from actores 
+where cachehora= '200' and datan is null
+
+14)amosa o numero de  personaxes que interpreta o actor de codigo 'a18'  na serie de nome 'deep_space_nine';
+resultado : 2
+
+
+select count(*) from interpretesser 
+inner join actores on interpretesser.coda=actores.coda 
+inner join  series on interpretesser.cods=series.cods
+where series.titulo='deep_space_nine' and actores.coda='a18'
+
+14) amosar nomes de naves que non  teñen lanzaderas
+resultado:  speedo
+
+select nomen from naves
+left join  lanzaderas on  lanzaderas.codn=naves.codn
+where lanzaderas.codn is null
+
+15)amosar nomes de actores que participan  polo menos unha vez nunha serie e polo menos unha vez  nunha pelicula (as duas cousas a vez)
+shatner
+nimoy
+kelley
+doohan
+luis
+pedro
+yuan
+
+select noma from actores where coda 
+ in (select coda from interpretesser where coda 
+ in (select coda from interpretespel))
+
+16) amosar nomes de personaxes que non  participan  en series nen en peliculas
+
+ 
+lures
+tagana
+gilora
+lian
+solok
+brunt
+ducat
+lag
+sissy
+devour
+comic
+kraal
+letek
+nog
+ardor
+tiron
+dax
+karnas
+garak
+rom
+grilka
+gull
+quark
+kira
+morn
+boogie
+kamala
+kurn
+
+select  nomper from personaxes where codper not
+ in  (select codper from interpretesser) and codper 
+ not in (select codper from interpretespel)
+
+17)
+ cantos klingon proceden de planetas visitados na serie que ten por titulo 'enterprise'
+resultado: 14
+ 
+select count(*) from klingon where codpla in 
+(select codpla from  visitas where cods 
+in (select cods from series  where  series.titulo='enterprise'))
+
+
+18)  amosar codigos de lanzaderas que se usaron para visitar o planeta 'mart' na serie 'next_generation'.
+n4          11
+n4          10
+n4           9
+n4           8
+n4           7
+n4           6
+n4           5
+n4           4
+n2           3
+n2           2
+n2           1
+
+select lanzaderas.codn, numero from visitas 
+inner join  lanzaderas on visitas.codn=lanzaderas.codn
+inner join planetas on  visitas.codpla=planetas.codpla
+inner join series on visitas.cods=series.cods
+where planetas.nompla='mart' 
+and  series.titulo='next_generation'
+order by  numero desc
+
+19)amosar nomes de actores de series que interpreten personaxes que teñen una letra 'y' no seu nome de personaxe:
+beatriz
+kelley
+luis
+
+
+select distinct  actores.noma from interpretesser
+inner join actores  on interpretesser.coda=actores.coda
+inner join series on interpretesser.cods=series.cods
+inner join personaxes on interpretesser.codper=personaxes.codper
+where  personaxes.nomper like  '%y%'
+
+20)amosar nomes de actores que teñan polo menos unha letra ' a' ,  de series  interpretadas por  personaxes que teñen una letra 'a' no seu nome de personaxe
+yuan
+beatriz
+veronica
+gray
+
+select actores.noma  from interpretesser
+inner join actores  on interpretesser.coda=actores.coda
+inner join series on interpretesser.cods=series.cods
+inner join personaxes on interpretesser.codper=personaxes.codper
+where personaxes.nomper like  '%a%' 
+and actores.noma like  '%a%' 
+
+21)canto cobran de media por hora os actores tendo en conta os nulos:
+192.592593
+
+select avg(COALESCE(cachehora,0)) from actores
+
+22)amosar os nomes dos personaxes dos que dependen directamente soldados
+
+word
+letek
+ardor
+solok
+
+
+select  distinct  personaxes.nomper 
+from personaxes as personaxes2
+inner  join personaxes on personaxes.codper=personaxes2.codper2
+where personaxes2.graduacion='soldado' 
+order by  nomper desc 

@@ -1,0 +1,40 @@
+listado de base \l
+
+darle permiso a la base grant connect on database dam1 to public 
+
+select user
+ 
+postgres le dio a dam1 seria asi \c postgres postgres (para conectarte)
+
+lista de usuario \du
+
+mirar esquema \dn la base q estas conectado
+\d ver lista de esquema
+
+cambiar de base \c el nombre q deseas cambiarte dam1 postgres
+
+crear esquema create schema nombre del esquema4;
+
+borrar drop schema esquema4
+
+quitar el permiso revoke conect on database dam1 from public; 
+
+crear usuario con la clave create user user3 with password'user3';
+
+dar permiso grant connect on database dam1 to user3; 
+
+
+
+hacer propietario de esquema4 a usuario user4
+
+es para cambiar esquema  alter schema esquema4 owner to user4; 
+
+por como esquema de bsuqueda por defecto do usuario user4 a esquema4
+
+alter user user4 in database dam1 set search_path to esquema4;
+\dp es para ver 
+show search_path; comprobar el usuario camino de bsuqueda
+\d esquema3.* mostar el acceso (\z esquema3.* y verlo mejor)
+create database dam1 crear base 
+create table prueba (codigo integer) crea tabla
+grant connect on database dam1 to user3;  concede el permiso

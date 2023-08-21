@@ -1,0 +1,33 @@
+nombre HorasMaximas
+/*impedir que un mismo actor interprete mas de 500 horas en una misma serie.
+insert into  interpretesser values('a18','p16','s3',1);
+rechaza insercion, ese actor no puede trabajar mas de 500 horas en la serie s3
+insert into actores interpretesser values('a12','p16','s3',101);
+rechaza insercion, ese actor no puede trabajar mas de 500 horas en la serie s3
+insert into actores interpretesser values('a12','p16','s3',100);
+aceptada insercion*/
+
+
+DROP FUNCTION horasmaximas() CASCADE;
+CREATE FUNCTION horasmaximas()
+	RETURNS TRIGGER
+	LANGUAGE PLPGSQL
+    AS 
+$$  
+
+DECLARE
+contaH integer;
+contaV integer;
+contaG integer;
+BEGIN
+select count (horas) into contaH from interpretesser where coda=new.coda;
+ if contaH<500 then
+  	 raise notice 'aceptada insercion  ';
+    else
+  	 raise exception ' rechaza insercion, ese actor no puede trabajar mas de 500 horas en la serie s3 ';
+  end if;
+
+  return new;
+END;
+$$;
+CREATE TRIGGER horasmaximast before INSERT ON interpretesser for each row EXECUTE PROCEDURE horasmaximas();

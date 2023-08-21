@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lenguajes [
+<!ELEMENT lenguajes (lenguaje+)>
+ <!ELEMENT lenguaje  (nombre,creador,fecha,compilado?,interpretado?)>
+<!ELEMENT nombre  (#PCDATA)>
+<!ELEMENT creador (#PCDATA) >
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT compilado  EMPTY>
+<!ELEMENT interpretado EMPTY>
+]>
+<lenguajes>
+  <lenguaje>
+    <nombre>C</nombre>
+    <creador>Dennis Ritchie</creador>
+    <fecha>1973</fecha>
+    <compilado />
+  </lenguaje>
+  <lenguaje>
+    <nombre>Python</nombre>
+    <creador>Guido van Rossum</creador>
+    <fecha>1991</fecha>
+    <interpretado />
+  </lenguaje>
+  <lenguaje>
+    <nombre>PHP</nombre>
+    <creador>Rasmus Lerdorf</creador>
+    <fecha>1995</fecha>
+    <interpretado />
+  </lenguaje>
+  <lenguaje>
+    <nombre>XSLT</nombre>
+    <creador>James Clark</creador>
+    <fecha>1998</fecha>
+    <interpretado />
+  </lenguaje>
+</lenguajes>

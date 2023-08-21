@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menudesayuno>
+<plato>
+<nombre> gofres belgas </nombre>
+<precio> 5.95 </precio>
+<descripcion> famoso gofres belgas </descripcion>
+<calorias>  650 </calorias> 
+</plato>
+<plato>
+<nombre> gofres belgicas con fresa </nombre>
+<precio> 7.95 </precio>
+<descripcion>  famoso gofres belgas con fresas y nata motada </descripcion>
+<caloria> 900</caloria>
+</plato>
+
+<plato>
+<nombre> golfres belgicas con frutas del bosque </nombre>
+<precio> 8.50</precio>
+<descripcion> famoso gofres belgas con fruta del bosque</descripcion>
+<calorias> 900</calorias>
+</plato>
+</menudesayuno>

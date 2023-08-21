@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lugares [
+<!ELEMENT lugares  (pais+)>
+<!ELEMENT pais (nombre,importanciaturistico,precioentrada,hotel,preciodehotel,direccionhotel,tlfdelhotel,actividad,precioactividad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ENTITY nombre "España">
+<!ELEMENT importanciaturistico (#PCDATA)>
+<!ELEMENT precioentrada (#PCDATA)>
+<!ELEMENT hotel EMPTY>
+<!ELEMENT preciodehotel EMPTY>
+<!ELEMENT direccionhotel EMPTY>
+<!ELEMENT tlfdelhotel EMPTY>
+<!ELEMENT restaurante EMPTY>
+<!ATTLIST restaurante nombre  CDATA #REQUIRED>
+<!ELEMENT direccion  EMPTY>
+<!ATTLIST  direccion  restaurante CDATA #REQUIRED>
+<!ELEMENT precio EMPTY>
+<!ATTLIST  precio  restaurante CDATA #REQUIRED>
+<!ELEMENT tlf EMPTY>
+<!ATTLIST  tlf  restaurante CDATA #REQUIRED>
+<!ELEMENT precioactividad (#PCDATA)>
+]>
+
+<lugares>
+<pais>
+<nombre>&nombre;</nombre>
+<importanciaturistico>PalacioReal</importanciaturistico>
+<precioentrada>50Euros</precioentrada>
+<hotel/>
+<preciodehotel/>
+<direccionhotel/>
+<tlfdelhotel/>
+<restaurante nombre="El Jardín de Orfila by Mario Sandoval" ></restaurante>
+<direccion restaurante = "C. de Orfila, 6, 28010 Madrid"></direccion>
+<precio restaunate ="35euros"></precio>
+ <tlf restaurante ="917 02 77 72"> </tlf>
+<actividad>Hipódromo de la Zarzuela</actividad>
+<precioactividad>10Euros</precioactividad>
+</pais>
+</lugares>
+

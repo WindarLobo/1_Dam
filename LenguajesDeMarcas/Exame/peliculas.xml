@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/home/dam1/Documentos/lenguajes%20de%20marcas/Exame/peli.xsl"?><peliculas>
+<pelicula tematicas="Ficcion">
+<titulo>Rosa </titulo>
+<director> Jose Bracho</director>
+<año>2003</año>
+</pelicula>
+<pelicula tematicas="Terror">
+<titulo>Sol en la playa </titulo>
+<director> Windar lobo</director>
+<año>1998</año>
+</pelicula>
+<pelicula tematicas="Romaticas">
+<titulo>tierra</titulo>
+<director> Adrian Estevez</director>
+<año>2010</año>
+</pelicula>
+</peliculas>

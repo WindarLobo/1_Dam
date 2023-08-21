@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='unidad4.css'?>
+	<catalogo>
+<tituloCatalogo>Películas rodadas en Vigo</tituloCatalogo>
+<peliculas>
+<pelicula>
+	<primero>
+<titulo>Los lunes al sol</titulo>
+</primero>
+<director>Fernando León</director>
+<actor>Luis Tosar</actor>
+<actor>Javier Barden</actor>
+</pelicula>
+<pelicula>
+<titulo>Toro</titulo>
+<director>Kike Maíllo</director>
+<actor>Mario Casas </actor>
+<actor>Luis Tosar</actor>
+</pelicula>
+<pelicula>
+<titulo>Ilegal</titulo>
+<director>Ignacio Vilar</director>
+<actor>Chisco Amado</actor>
+<actor>Lucía Jiménez</actor>
+</pelicula>
+</peliculas>
+</catalogo>

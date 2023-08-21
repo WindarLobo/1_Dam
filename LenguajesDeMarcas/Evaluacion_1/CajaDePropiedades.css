@@ -1,0 +1,11 @@
+h1 {background-color: yellow;margin: 20px; padding: 30px;
+border: 20px outset red;
+width: 50%;
+}
+p {
+	background-color: grey;
+	margin: 10px 20px 15px;
+	border-top: 20px dotted yellow;
+	border-bottom: 20px dotted yellow;
+
+}

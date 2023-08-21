@@ -1,0 +1,68 @@
+postgres=> \i '/media/sf_compartida/Evaluacion_2/procedimientopequipo.sql' 
+CREATE PROCEDURE
+postgres=> call pequipo();
+NOTICE:  e5 , novo
+NOTICE:  e1 , cuspedrinos
+NOTICE:  e3 , croques
+NOTICE:  e4 , reboludos
+NOTICE:  e2 , gambusinos
+CALL
+postgres=> ^C
+postgres=> select * from equipo;
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |     
+ e1     | cuspedrinos |    5
+ e3     | croques     |    3
+ e4     | reboludos   |    5
+ e2     | gambusinos  |    2
+(5 rows)
+
+postgres=> update equipo set numx=8;
+UPDATE 5
+postgres=> select * from equipo;
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |    8
+ e1     | cuspedrinos |    8
+ e3     | croques     |    8
+ e4     | reboludos   |    8
+ e2     | gambusinos  |    8
+(5 rows)
+
+postgres=> rollback
+postgres-> ;
+WARNING:  there is no transaction in progress
+ROLLBACK
+postgres=> update equipo set numx=null where codequ='e1';
+UPDATE 1
+postgres=> select * from equipo;                         
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |    8
+ e3     | croques     |    8
+ e4     | reboludos   |    8
+ e2     | gambusinos  |    8
+ e1     | cuspedrinos |     
+(5 rows)
+
+postgres=> \i '/media/sf_compartida/Evaluacion_2/procedimientopequipo.sql' 
+CREATE PROCEDURE
+postgres=> select * from equipo;
+ codequ |   nomequ    | numx 
+--------+-------------+------
+ e5     | novo        |    8
+ e3     | croques     |    8
+ e4     | reboludos   |    8
+ e2     | gambusinos  |    8
+ e1     | cuspedrinos |     
+(5 rows)
+
+postgres=> call pequipo();
+NOTICE:  e5 , novo, 8
+NOTICE:  e3 , croques, 8
+NOTICE:  e4 , reboludos, 8
+NOTICE:  e2 , gambusinos, 8
+NOTICE:  e1 , cuspedrinos, <NULL>
+CALL
+

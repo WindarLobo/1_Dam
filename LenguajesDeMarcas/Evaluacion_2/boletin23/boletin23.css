@@ -1,0 +1,88 @@
+nombre {font-size:2em;}
+libros {
+	display:table;
+    border:2px solid black;
+    border-spacing:2px;
+    margin-left:3em;
+}
+libro{
+	display:table-row;
+	 }
+titulo, autor, fechaPublicacion 
+{  padding: 5px;
+	display:table-cell; 
+	border:2px solid black;
+}
+
+		/*nombre{ display: table-caption;text-align: center;
+  background-color: #5499c7;
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 5px;}
+		
+		libro{display: table-row; }
+
+titulo,autor,fechaPublicacion{background-color: white;
+  border: black 1px solid;
+  display: table-cell;
+  padding: 10px;}
+
+  biblioteca{font-family: sans-serif;
+  display: table;
+  border-spacing: 10px;
+  border: black 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;}*/
+
+		
+
+	/*titulo{
+display: table-caption;
+  background-color:  #DDDDDD;
+  text-align: center;
+ font-family:sans-serif;}
+
+ autor, fechaPublicacion{
+ 	display: table-row;
+   background-color: white;
+   border: black 1px solid;
+  display: table-cell;
+  padding: 20px; padding-left: 5px; 
+  font-family: sans-serif;}
+
+libro{
+ display: table;
+  border-spacing: 10px;
+   font-size: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  border: black 1px solid;}
+
+  nombre{font-size: 120%;
+  font-family: sans-serif;
+}*/
+
+
+/*nombre {
+  display: none;}
+
+libro {
+  display: block;
+  float: left;
+  font-size: 120%;
+  margin-bottom: 10px; border-spacing: 10px; border: black 3px dashed;
+  float: left;
+  margin: 10px;}
+
+libros {font-family: serif;
+display: table;
+  display: block;}
+
+titulo,autor, fechaPublicacion{  background-color:  #f5b7b1;
+  display: table-row;
+  padding: 10px;
+}*/
+

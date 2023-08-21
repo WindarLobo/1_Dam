@@ -1,0 +1,81 @@
+
+section.uno img{
+
+	float: left;
+	border: 5px solid  #f45d11  ;
+	background-color:   #f3e42c;
+	
+}
+
+section.dos img{
+	float: right;
+	border: 5px solid  #f3e42c  ;
+	background-color:  #e3540c  ;
+
+}
+section.tres img{
+	float: left;
+	border: 5px solid   #f45d11  ;
+	background-color:   #f3e42c   ;
+
+}
+
+section.cuatro img{
+	float: right;
+	border: 5px solid  #f3e42c  ;
+	background-color:  #e3540c  ;
+}
+section.cinco img{
+	float: left;
+	border: 5px solid   #f45d11 ;
+	background-color:   #f3e42c   ;
+}
+section{
+ 
+	clear: both;overflow: auto; margin-right:25%;margin-left: 25%;margin-bottom: 20px;
+	background-color: white; 
+}
+
+body {
+	background-color: #129db3  ;
+}
+
+section img{
+
+	padding: 8px;
+	margin: 20px ;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+ h2 { 
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+p{
+	margin-left: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+
+}
+section.uno{
+	  border: 10px outset  #f45d11 ;
+}
+section.dos{
+	 border: 10px outset  #f3e42c;
+}
+
+section.tres{
+	  border: 10px outset  #f45d11 ;
+}
+section.cuatro{
+	 border: 10px outset  #f3e42c;
+}
+
+section.cinco{
+	  border: 10px outset  #f45d11 ;
+}
+
+

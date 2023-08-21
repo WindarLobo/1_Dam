@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifest [
+<!ELEMENT manifest (application)>
+<!ATTLIST manifest  xmlns:android  CDATA #REQUIRED
+                                                          package CDATA #REQUIRED>
+<!ELEMENT application (activity )>
+<!ATTLIST application  android:icon CDATA #REQUIRED>
+
+<!ELEMENT activity  (intent-filter)>
+<!ATTLIST activity class  CDATA #REQUIRED
+                                 android:label CDATA #REQUIRED>
+
+ <!ELEMENT intent-filter (action,category)>
+<!ELEMENT action  EMPTY>
+<!ATTLIST  action  android:value  CDATA #REQUIRED>
+<!ELEMENT category  (#PCDATA)>
+<!ATTLIST  category  android:value CDATA #REQUIRED>
+
+]>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.msi.ibmtutorial">
+    <application android:icon="@drawable/icon">
+      <activity class=".SaySomething" android:label="@string/app_name">
+            <intent-filter>
+                <action android:value="android.intent.action.MAIN" />
+                <category android:value="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

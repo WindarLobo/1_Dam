@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='Examenxml.css'?>
+<pintores>
+  <titulo>Pintores universales</titulo>
+  <pintor id="Goya">
+    <nombre>Francisco de Goya</nombre>
+    <nacido>1746</nacido>
+    <fallecido>1828</fallecido>
+    <nacionalidad>España</nacionalidad>
+  </pintor>
+  <pintor id="Velazquez">
+    <nombre>Diego Velázquez</nombre>
+    <nacido>1599</nacido>
+    <fallecido>1660</fallecido>
+    <nacionalidad>España</nacionalidad>
+  </pintor>
+  <pintor id="Vermeer">
+    <nombre>Johannes Vermeer</nombre>
+    <nacido>1632</nacido>
+    <fallecido>1675</fallecido>
+    <nacionalidad>Holanda</nacionalidad>
+  </pintor>
+</pintores>

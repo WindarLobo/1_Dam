@@ -1,0 +1,30 @@
+h1 {
+ font-variant: small-caps;
+}
+p.infancia{
+	 color: blue;
+	font-family:serif;
+	font-style:  italic;
+
+
+}
+p.Animales{
+	color:  #fafafa ;
+	font-family: sans-serif;
+	letter-spacing: 5px;
+
+}
+p.Literatura{
+	color:  #f57c00 ;
+	font-family: monospace;
+}
+p.Numero{
+	color: red;
+	font-family: cursive;
+	word-spacing: 10px;
+	
+
+
+}
+body  {
+	background-color:  #558b2f   ;}

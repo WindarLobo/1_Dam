@@ -1,0 +1,52 @@
+
+/*titulo{
+  display: block;
+  margin: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;font-weight: bold;
+}
+
+
+
+pintores{
+  font-size:  100%;
+  counter-reset: cuentaciclos;
+}
+
+
+nombre:before {
+  content: counter(cuentaciclos) ". ";
+  counter-increment: cuentaciclos;
+}
+
+nombre {
+  display: block;
+  margin-top: 10px;
+  margin-left: 30px;
+
+}
+nacido,fallecido,nacionalidad{
+  display: none;
+}
+ titulo:before {content:" Listado  "}*/
+
+
+pintor{
+  border-style: solid; border-width:2px; 
+  margin:7px; padding:7px; background-color:  #d1f2eb ; 
+   display: block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+titulo{
+  font-weight: bold;
+text-transform: uppercase;
+}
+nombre{
+  font-weight: bold;}
+
+
+.Goya, .Velazquez,.Vermeer,nacionalidad{
+  display: none;
+}

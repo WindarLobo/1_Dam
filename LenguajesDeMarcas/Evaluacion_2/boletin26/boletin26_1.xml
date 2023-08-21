@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 1-        
+  <materiales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin26/boletin26_1.xsd">
+
+        <material>columna</material>
+       <altura>10</altura>
+       <precio>5</precio>
+     </materiales>-->
+     
+     <!--Ejercicio 2-        
+      <persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin26/boletin26_1.xsd">
+            <nombre>.juanito</nombre>
+            <altura>1.55 </altura>
+            <peso>6.800 </peso>
+      </persona>-->
+      
+          <!--Ejercicio 3- 
+      <temperaturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin26/boletin26_1.xsd">
+        <dia>lunes</dia>
+        <maxima>-10 </maxima>
+        <minima> 42 </minima>  
+  </temperaturas>-->
+  
+   <!--Ejercicio 4- 
+  <alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin26/boletin26_1.xsd">
+<nombre>Juan Garcia</nombre>
+<edad>29</edad>
+<electrodomestico>Balay</electrodomestico>
+<letra>m</letra>
+<let>x</let>
+<letras>WLG</letras>
+<clave>m26262</clave>
+<password>165767894</password>
+<direccion>
+<calle>Avenida de la Fuente</calle>
+<ciudad>Vigo</ciudad>
+</direccion>
+<telefono>123456987</telefono>
+   </alumno>-->
+   
+    
+   <triangulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin26/boletin26_1.xsd">
+   <triangulo base="7" altura="5"/>
+      <triangulo base="2" altura="6"/>
+      <triangulo base="3" altura="3"/>
+   </triangulos>

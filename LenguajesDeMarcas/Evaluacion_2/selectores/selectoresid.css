@@ -1,0 +1,21 @@
+
+p#Windar {
+  font-weight:bold;
+ }
+p.Windar {
+  color:blue;
+ }
+ 
+p.Adrian {
+  color:fuchsia;
+ }
+ body {
+  margin-top: 100px;
+margin-right: 40px;
+  margin-bottom: 10px;
+   margin-left: 70px;
+   }
+  h1 {
+  color: red;
+        }
+        

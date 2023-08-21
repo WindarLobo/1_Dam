@@ -1,0 +1,109 @@
+
+
+ /*EJERCICIO 1*/
+
+titulo{ display: block; color:black;
+ 	 font-family: serif;
+	font-size: 45px;
+   text-shadow: 9px 15px 0px #2B68FA;
+
+ }
+ biblioteca{
+ 	background-color:#884EA0; 
+
+ }
+
+ libro{
+ 	font-size: 25px;
+ }
+p {
+  font-size: 250%;
+}
+fechaPublicacion{
+	font-size: 25px; 
+	display: block;
+}
+
+/*EJERCICIO 2*/
+
+/*
+titulo{ display: block; color:black;
+   font-family: unset;
+  font-size: 35px;
+}  
+
+ fechaPublicacion,libro{ font-size: 20px; 
+  display: block;}
+
+fechaPublicacion#fecha{border-bottom: 3px solid;}
+
+biblioteca{ width: 50%;display: table;
+border: 3px solid;margin: auto;margin-top: 10%;
+
+
+
+ }*/
+/*EJERCICIO 3*/
+
+ /*
+biblioteca{
+background-color:  #85929E;
+margin:auto ;
+margin-top: 10%;
+width: 50%;
+border: 2px solid ;
+
+ }
+
+ titulo{display: block;
+  font-size: 25px;
+  font-weight: bold;}  
+
+ fechaPublicacion,libro{font-size: 20px; 
+    display: block;}
+
+    libro{
+
+      margin-bottom:  15px ;
+      border: 2px solid black;
+      margin: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+     background-color: #2E7625;
+  
+    }*/
+
+/*
+
+ /*EJERCICIO 4*/
+
+/*
+biblioteca{
+background-color:  #5D6D7E;
+margin:auto ;
+margin-top: 10%;
+width: 50%;
+border: 2px solid ;
+
+ }
+ titulo{display: block;
+  font-size: 25px;
+  font-weight: bold;}  
+
+ fechaPublicacion,libro{font-size: 20px; 
+    display: block;}
+
+    libro{
+
+       margin-bottom:  15px ;
+      border: 3px solid black;
+      margin: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+     background-color: #2E7625;
+  
+    }
+    titulo#uno{
+      background-color: #85929E; border-bottom: 3px solid black;
+
+    }*/

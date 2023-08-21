@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Ejercicio 1- numero entero
+<numeros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/ejemplonumeroRetricicion.xsd">
+<numero1>5</numero1>
+</numeros>-->
+
+<!--Ejercicio 2- numero decimal
+<numeros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/ejemplonumeroRetricicion.xsd">
+<numero1>5.5</numero1>
+<numero2>5.5</numero2>
+</numeros>-->
+
+<!--Ejercicio 3- numero minimo al maximo
+<numeros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/ejemplonumeroRetricicion.xsd">
+<numero1>5.5</numero1>
+<numero2>5.5</numero2>
+<numero3>1</numero3>
+</numeros>-->
+
+
+<numeros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam1/Documentos/lenguajes%20de%20marcas/evaluacion_2/boletin25/ejemplonumeroRetricicion.xsd">
+<numero1>5.5</numero1>
+<numero2>5.5</numero2>
+<numero3>1</numero3>
+<numero4>19935</numero4>
+</numeros>

@@ -1,0 +1,9 @@
+﻿<!DOCTYPE libro [
+<!ELEMENT libro (titulo,autor)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+]>
+<libro>
+</libro>

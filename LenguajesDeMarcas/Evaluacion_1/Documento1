@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hotelesvigo>
+<hotel1>
+<nombre> Hotel Vigo Plaza</nombre>
+<telefono>969858954</telefono>
+<dirección>
+<calle> rúa do Progreso</calle>
+<numero>13</numero>
+</dirección>
+<ciudad> Pontevedra</ciudad>
+<pais>España</pais>
+<numerodeestrella>4</numerodeestrella>
+<descripcióndelhotel>
+<numerohabitacionesindividuales>25</numerohabitacionesindividuales>
+<habitacionesdobles>20</habitacionesdobles>
+<habitacionestriples>25</habitacionestriples>
+<suites>20</suites>
+</descripcióndelhotel>
+</hotel1>
+
+<hotel2>
+<nombre> Hotel Silken Axis Vigo</nombre>
+<telefono>98644 112</telefono>
+<dirección>
+<calle> Rúa de María Berdiales</calle>
+<numero>22</numero>
+</dirección>
+<ciudad> Pontevedra</ciudad>
+<pais>España</pais>
+<numerodeestrella>5</numerodeestrella>
+<descripcióndelhotel>
+<numerohabitacionesindividuales>25</numerohabitacionesindividuales>
+<habitacionesdobles>20</habitacionesdobles>
+<habitacionestriples>25</habitacionestriples>
+<suites>20</suites>
+</descripcióndelhotel>
+</hotel2>
+</hotelesvigo>

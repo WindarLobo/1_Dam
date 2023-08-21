@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+  <?xml-stylesheet type='text/css' href='Centro.css'?>
+
+  <centro>
+  <nombreCentro>Daniel Castelao</nombreCentro>
+   <ciclos>
+    <ciclo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo>2009</decretoTitulo>
+    </ciclo>
+    <ciclo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo>2010</decretoTitulo>
+    </ciclo>
+    <ciclo>
+      <nombre>Gestión Administrativa</nombre>
+      <grado>Medio</grado>
+      <decretoTitulo>2008</decretoTitulo>
+    </ciclo>
+    <ciclo>
+      <nombre>Administración y Finanzas</nombre>
+      <grado>Superior</grado>
+      <decretoTitulo>2010</decretoTitulo>
+    </ciclo>
+  </ciclos>
+</centro>
+
+
+

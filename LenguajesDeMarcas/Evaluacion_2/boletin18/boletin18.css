@@ -1,0 +1,50 @@
+body {
+	background-color:  #207924 ;
+	width: 90%;
+}
+h1 {
+padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 3px 4px grey;color: white;text-transform:uppercase;
+	text-align: center;
+
+}
+
+p.uno{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 25%;margin-right: 25% ;
+	width: 40%;
+	background-color: white;
+	font-weight: normal;
+	border: 7px solid black;
+	border-radius: 13px;
+	
+}
+
+p.dos{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 50% ;
+	
+	
+	background-color:    #8ebaf3   ;
+	width: 40%;
+	font-weight: normal;
+	border: 10px solid  #0963d5 ;
+	border-radius: 13px;
+
+}
+
+p.tres {
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	margin-left: 50% ;
+	background-color:    #f8a996   ;
+	width: 40%;
+	font-weight: normal;
+	border: 5px dashed  #e8370c ;
+	border-radius: 13px;
+
+}

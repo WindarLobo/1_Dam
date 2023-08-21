@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<geografia>
+  <organizaciones>
+    <organizacion nombre="otan" tipo="militar" />
+    <organizacion nombre="ue" tipo="economico" />
+  </organizaciones>
+  <otan>
+    <pais nombre="Francia" entrada="1948" />
+    <pais nombre="España" entrada="1982" />
+    <pais nombre="Alemania" entrada="1955" />
+  </otan>
+  <ue>
+    <pais nombre="Francia" entrada="1957" />
+    <pais nombre="España" entrada="1986" />
+    <pais nombre="Suecia" entrada="1995" />
+    <pais nombre="Alemania" entrada="1957" />
+    <pais nombre="Finlandia" entrada="1995" />
+  </ue>
+  <paises>
+    <pais tipo="república">
+      <nombre>Ucrania</nombre>
+      <capital>Kiev</capital>
+      <datos superficie="603700" poblacion="48.4" />
+    </pais>
+    <pais tipo="república">
+      <nombre>Francia</nombre>
+      <capital>París</capital>
+      <datos superficie="547030" poblacion="63.2" />
+    </pais>
+    <pais tipo="monarquía">
+      <nombre>España</nombre>
+      <capital>Madrid</capital>
+      <datos superficie="547030" poblacion="48.4" />
+    </pais>
+    <pais tipo="monarquía">
+      <nombre>Suecia</nombre>
+      <capital>Estocolmo</capital>
+      <datos superficie="449964" poblacion="9.1" />
+    </pais>
+    <pais tipo="república">
+      <nombre>Alemania</nombre>
+      <capital>Berlín</capital>
+      <datos superficie="357021" poblacion="83.3" />
+    </pais>
+    <pais tipo="república">
+      <nombre>Finlandia</nombre>
+      <capital>Helsinki</capital>
+      <datos superficie="336953" poblacion="5.2" />
+    </pais>
+  </paises>
+</geografia>

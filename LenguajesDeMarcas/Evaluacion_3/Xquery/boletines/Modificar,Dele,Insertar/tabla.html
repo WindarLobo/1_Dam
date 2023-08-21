@@ -1,0 +1,22 @@
+ <html>
+ <body>
+ <h4>-Libros:</h4>
+ <table border="1">
+ <tr><th>Titulo</th> <th>ISBN</th><th>Precio</th></tr>
+ {
+   for $x in doc("boletin39")/libros/libro
+
+return 
+<tr><td>{data($x/titulo)}</td><td>{data($x/isbn)}</td> <td>{data($x/precio)}</td></tr>
+
+   
+ }
+ 
+ 
+</table>
+ </body>
+ </html>
+
+
+
+

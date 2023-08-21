@@ -1,0 +1,35 @@
+DROP FUNCTION tfarmaceutica() CASCADE;
+CREATE FUNCTION tfarmaceutica()
+	RETURNS TRIGGER
+	LANGUAGE PLPGSQL
+    AS 
+$$  
+DECLARE
+contaP integer;
+contaF integer;
+fila record;
+BEGIN
+cuenta=0;
+ select count (*)  into contaP from propios where  dnip=new.dnip;
+
+ if  contaP !=0  then
+  raise notice ' añadido ';
+
+    else
+for fila in select * from traballan where codf=new.codf loop
+
+select count (*)  into contaF from farmaceuticos where dnip=fila .dnip;
+
+if contaF >=1 the 
+
+cuenta=cuenta+1;
+
+end if;
+
+ end loop;
+ 
+
+    return new;
+END;
+$$;
+CREATE TRIGGER tfarmaceuticaf INSERT ON traballan for each row EXECUTE PROCEDURE tfarmaceutica();

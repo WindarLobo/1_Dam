@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia [
+<!ELEMENT geografia(pais+)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT pais codpais ID #REQUIRED>
+<!ELEMENT pais idioma NMTOKEN  "Español">
+<!ELEMENT ciudades (ciudad+)>
+<!ELEMENT ciudad  EMPTY>
+<!ATTLIST ciudad pais IDREF #REQUIRED>
+
+]>
+<geografia>
+<pais>
+
+</pais>
+<pais codpais="3696">
+<pais idioma="Español">
+<pais>
+<nombre>ESpaña</nombre>
+</pais>
+<ciudades>
+<ciudad/>
+<ciudad pais ="m">
+</ciudades>
+<pais>
+<nombre>ESpaña</nombre>
+</pais>
+<pais codpais="3696">
+<pais idioma="Español">
+<pais>
+<nombre>ESpaña</nombre>
+</pais>
+<ciudades>
+<ciudad/>
+<ciudad pais ="m">
+</ciudades>
+</geografia>

@@ -1,0 +1,30 @@
+
+CREATE or replace procedure pcidadefarmacias (codigoF integer)
+    LANGUAGE PLPGSQL
+    AS
+$$
+DECLARE
+filax record;
+fila record;
+r varchar;
+cuenta integer;
+	
+BEGIN
+r=E'\n';
+cuenta = 0;
+
+for fila in select nomf,codc from farmacias where codc=codigoF  LOOP
+FOR filax IN select nomc from cidades LOOP
+cuenta = cuenta +1;
+     end LOOP;
+   if cuenta != 0 then
+     r = r||' La farmacia es : ' ||fila.nomf||E'\n';
+   		else
+		r = r || E'\n' || 'esta farmacia no se enceuntra en esa ciudad'; 
+   	end if;
+	
+	    end LOOP; 
+raise notice '%',r;
+end;
+$$;
+
